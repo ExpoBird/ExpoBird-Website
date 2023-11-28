@@ -3510,7 +3510,7 @@ img {
 /* ///////////////////// digital service ////////////// */
 
 .bg-hero-image{
-  background: url(/assets/digital/hero-image.png);
+  background: url("/assets/digital/hero-image.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
