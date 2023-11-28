@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Script from 'next/script';
 
 const Faq = () => {
   return (
     <>
+     <Script
+        src="/scripts/script-1.js"
+        strategy="lazyOnload"
+      ></Script>
     <div className="bg-[#151515] font-montserrat">
         <div className="xl:max-w-[1440px] mx-auto">
           <div className="sm:p-2 sm:leading-none p-24">
