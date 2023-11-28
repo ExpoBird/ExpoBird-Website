@@ -87,7 +87,7 @@ const Home = ({ title, description }) => {
       <HeroBackground />
       <OurServices />
       <Counter />
-      <CaseStudy />
+      {/* <CaseStudy /> */}
       <FeatureWork title={"We are a team of design and research experts with over ten years of experience in improving businesses and peoples’ lives through smart design solutions"} />
       <Clients />
       <Faq />
