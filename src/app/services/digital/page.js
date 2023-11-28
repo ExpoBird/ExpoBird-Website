@@ -1,3 +1,4 @@
+import Script from 'next/script';
 import DigitalHero from '@/app/components/DigitalHero';
 import TestingNav from '@/app/components/TestingNav';
 import Navbar from '@/app/components/Navbar';
@@ -11,6 +12,10 @@ import Driven from '@/app/components/Driven';
 const App = () => {
   return (
     <>
+      <Script
+        src="/scripts/script-1.js"
+        strategy="lazyOnload"
+      ></Script>
       <div className='bg-hero-image w-full overflow-hidden'>
             <Navbar />
             <TestingNav />

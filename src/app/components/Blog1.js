@@ -9,7 +9,6 @@ const Blog1 = ({ menuData }) => {
         {
           menuData.map((curElem) => {
             const { id, name, category, image, description } = curElem;
-
             return (
               <>
                 <div className="font-montserrat card-container-blog" key={id}>

@@ -18,11 +18,6 @@ import Blog1 from './components/Blog1';
 import Technologies from './components/Technologies';
 import TestingNav from './components/TestingNav';
 
-export const metadata = {
-  title: "Home - Expobird",
-  description: "Expobird"
-}
-
 const Home = ({ title, description }) => {
 
   const Menu = [
