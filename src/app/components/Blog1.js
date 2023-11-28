@@ -7,16 +7,17 @@ const Blog1 = ({ menuData }) => {
       <p className="text-[85px] sm:text-center sm:text-[40px] sm:mt-[150px] font-bold font-montserrat text-black sm:mb-[10px] sm:ml-0 ml-[85px]">Our Blogs</p>
       <section className="main-card--cointainer">
         {
-          menuData.map((curElem) => {
+          menuData.map((curElem,key) => {
             const { id, name, category, image, description } = curElem;
             return (
               <>
-                <div className="font-montserrat card-container-blog" key={id}>
-                  <div className="card-blog ">
+                <div className="font-montserrat card-container-blog">
+                  <div className="card-blog">
                     <div className="card-body-blog">
+                      <div>{key}</div>
                       <span className="card-number card-circle subtle">{id}</span>
-                      <span className="card-author subtle"> {category}</span>
-                      <h2 className="card-title"> {name} </h2>
+                      <span className="card-author subtle">{category}</span>
+                      <h2 className="card-title">{name}</h2>
                       <span className="card-description subtle">
                         {description}
                       </span>

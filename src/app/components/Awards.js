@@ -28,23 +28,23 @@ export default function Award() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="font-montserrat swiper-card swiper-js translate-y-20 shadow-black shadow-sm bg-white" style={{ background: 'white', color: 'black', height: '450px', borderRadius: '10px', padding: '20px', textAlign: 'center' }}>
-            <Image src="/assets/top-11-mobile-app-development-companies-in-florida 2022.webp" height={100} width={100} alt="Logo" style={{ width: '90px', height: '100px', borderRadius: '50%', marginBottom: '10px', marginLeft: "80px" }} />
+          <div className="font-montserrat swiper-card swiper-js translate-y-20  shadow-black shadow-sm bg-white" style={{ background: 'white', color: 'black', height: '450px', borderRadius: '10px', padding: '20px', textAlign: 'center' }}>
+            <Image src={"/assets/top-11-mobile-app-development-companies-in-florida 2022.webp"} height={100} width={100} alt="Logo" style={{ width: '90px', height: '100px', borderRadius: '50%', marginBottom: '10px', marginLeft: "80px" }} />
             <h2 className='font-montserrat sm:text-[20px]' style={{ fontSize: '25px', fontWeight: 'bold', margin: '10px 0' }}>Top Android App Development</h2>
             <p className='font-montserrat sm:text-[20px]' style={{ fontSize: '25px', marginTop: "90px"}}>ExpoBird is listed as Top Android App Development Companies by good firms</p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="font-montserrat swiper-card bg-white shadow-black shadow-sm " style={{ background: 'white', color: 'black', height: '500px', borderRadius: '10px', padding: '20px', textAlign: 'center' }}>
-            <Image src="/assets/top-50-blockchain-development-companies-hire-best-developers-in-usa.webp" height={100} width={100} alt="Logo" style={{ width: '90px', height: '100px', borderRadius: '50%', marginBottom: '10px', marginLeft: "80px" }} />
+            <Image src={"/assets/top-50-blockchain-development-companies-hire-best-developers-in-usa.webp"} height={100} width={100} alt="Logo" style={{ width: '90px', height: '100px', borderRadius: '50%', marginBottom: '10px', marginLeft: "80px" }} />
             <h2 className='font-montserrat sm:text-[20px]' style={{ fontSize: '25px', fontWeight: 'bold', margin: '10px 0' }}>Top Android App Development</h2>
             <p className='font-montserrat sm:text-[20px]' style={{ fontSize: '25px', marginTop: "90px" }}>ExpoBird is listed as Top Android App Development Companies by good firms</p>
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="font-montserrat swiper-card translate-y-20 shadow-black shadow-sm  bg-white" style={{ background: 'white', color: 'black', height: '500px', borderRadius: '10px', padding: '20px', textAlign: 'center' }}>
-            <Image src="/assets/top-blockchain-development-companies-01.webp" height={100} width={100} alt="Logo" style={{ width: '90px', height: '100px', borderRadius: '50%', marginBottom: '10px', marginLeft: "80px" }} />
+          <div className="font-montserrat swiper-card translate-y-20  shadow-black shadow-sm  bg-white" style={{ background: 'white', color: 'black', height: '500px', borderRadius: '10px', padding: '20px', textAlign: 'center' }}>
+            <Image src={"/assets/top-blockchain-development-companies-01.webp"} height={100} width={100} alt="Logo" style={{ width: '90px', height: '100px', borderRadius: '50%', marginBottom: '10px', marginLeft: "80px" }} />
             <h2 className='font-montserrat sm:text-[20px]' style={{ fontSize: '25px', fontWeight: 'bold', margin: '10px 0' }}>Top Android App Development</h2>
             <p className='font-montserrat sm:text-[20px]' style={{ fontSize: '25px', marginTop: "90px" }}>ExpoBird is listed as Top Android App Development Companies by good firms</p>
           </div>
@@ -52,15 +52,15 @@ export default function Award() {
 
         <SwiperSlide>
           <div className="font-montserrat swiper-card bg-white shadow-black shadow-sm " style={{ background: 'white', color: 'black', height: '500px', borderRadius: '10px', padding: '20px', textAlign: 'center' }}>
-            <Image src="/assets/top-mobile-app-development-company-2023.webp" height={100} width={100} alt="Logo" style={{ width: '90px', height: '100px', borderRadius: '50%', marginBottom: '10px', marginLeft: "80px" }} />
+            <Image src={"/assets/top-mobile-app-development-company-2023.webp"} height={100} width={100} alt="Logo" style={{ width: '90px', height: '100px', borderRadius: '50%', marginBottom: '10px', marginLeft: "80px" }} />
             <h2 className='font-montserrat sm:text-[20px]' style={{ fontSize: '25px', fontWeight: 'bold', margin: '10px 0' }}>Top Android App Development</h2>
             <p className='font-montserrat sm:text-[20px]' style={{ fontSize: '25px', marginTop: "90px" }}>ExpoBird is listed as Top Android App Development Companies by good firms</p>
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="swiper-card bg-white translate-y-20 shadow-black shadow-sm " translate-y-20 style={{ background: 'white', height: '500px', color: 'black', borderRadius: '10px', padding: '20px', textAlign: 'center' }}>
-            <Image src="/assets/top-sharepoint-consulting-companies-for-2023.webp" height={100} width={100} alt="Logo" style={{ width: '90px', height: '100px', borderRadius: '50%', marginBottom: '10px', marginLeft: "80px" }} />
+          <div className="swiper-card bg-white translate-y-20 shadow-black shadow-sm" style={{ background: 'white', height: '500px', color: 'black', borderRadius: '10px', padding: '20px', textAlign: 'center' }}>
+            <Image src={"/assets/top-sharepoint-consulting-companies-for-2023.webp"} height={100} width={100} alt="Logo" style={{ width: '90px', height: '100px', borderRadius: '50%', marginBottom: '10px', marginLeft: "80px" }} />
             <h2 className='font-montserrat sm:text-[20px]' style={{ fontSize: '25px', fontWeight: 'bold', margin: '10px 0' }}>Top Android App Development</h2>
             <p className='font-montserrat sm:text-[20px]' style={{ fontSize: '25px', marginTop: "90px" }}>ExpoBird is listed as Top Android App Development Companies by good firms</p>
           </div>
@@ -68,7 +68,7 @@ export default function Award() {
 
         <SwiperSlide>
           <div className="font-montserrat swiper-card bg-white shadow-black shadow-sm " style={{ background: 'white', color: 'black', borderRadius: '10px', height: '500px', padding: '20px', textAlign: 'center' }}>
-            <Image src="/assets/top-sharepoint-consulting-companies-for-2023.webp" height={100} width={100} alt="Logo" style={{ width: '90px', height: '100px', borderRadius: '50%', marginBottom: '10px', marginLeft: "80px" }} />
+            <Image src={"/assets/top-sharepoint-consulting-companies-for-2023.webp"} height={100} width={100} alt="Logo" style={{ width: '90px', height: '100px', borderRadius: '50%', marginBottom: '10px', marginLeft: "80px" }} />
             <h2 className='font-montserrat sm:text-[20px]' style={{ fontSize: '25px', fontWeight: 'bold', margin: '10px 0' }}>Top Android App Development</h2>
             <p className='font-montserrat sm:text-[20px]' style={{ fontSize: '25px', marginTop: "90px" }}>ExpoBird is listed as Top Android App Development Companies by good firms</p>
           </div>
@@ -76,7 +76,7 @@ export default function Award() {
 
         <SwiperSlide>
           <div className="font-montserrat swiper-card bg-white translate-y-20 shadow-black shadow-sm " style={{ background: 'white', color: 'black', borderRadius: '10px', height: '500px', padding: '20px', textAlign: 'center' }}>
-            <Image src="/assets/top-50-blockchain-development-companies-hire-best-developers-in-usa.webp" height={100} width={100} alt="Logo" style={{ width: '90px', height: '100px', borderRadius: '50%', marginBottom: '10px', marginLeft: "80px" }} />
+            <Image src={"/assets/top-50-blockchain-development-companies-hire-best-developers-in-usa.webp"} height={100} width={100} alt="Logo" style={{ width: '90px', height: '100px', borderRadius: '50%', marginBottom: '10px', marginLeft: "80px" }} />
             <h2 className='font-montserrat sm:text-[20px]' style={{ fontSize: '25px', fontWeight: 'bold', margin: '10px 0' }}>Top Android App Development</h2>
             <p className='font-montserrat sm:text-[20px]' style={{ fontSize: '25px', marginTop: "90px" }}>ExpoBird is listed as Top Android App Development Companies by good firms</p>
           </div>
@@ -84,7 +84,7 @@ export default function Award() {
 
         <SwiperSlide>
           <div className="font-montserrat swiper-card bg-white  shadow-black shadow-sm " style={{ background: 'white', color: 'black', borderRadius: '10px', height: '500px', padding: '20px', textAlign: 'center' }}>
-            <Image src="/assets/top-blockchain-development-companies-01.webp" height={100} width={100} alt="Logo" style={{ width: '90px', height: '100px', borderRadius: '50%', marginBottom: '10px', marginLeft: "80px" }} />
+            <Image src={"/assets/top-blockchain-development-companies-01.webp"} height={100} width={100} alt="Logo" style={{ width: '90px', height: '100px', borderRadius: '50%', marginBottom: '10px', marginLeft: "80px" }} />
             <h2 className='font-montserrat sm:text-[20px]' style={{ fontSize: '25px', fontWeight: 'bold', margin: '10px 0' }}>Top Android App Development</h2>
             <p className='font-montserrat sm:text-[20px]' style={{ fontSize: '25px', marginTop: "90px" }}>ExpoBird is listed as Top Android App Development Companies by good firms</p>
           </div>
