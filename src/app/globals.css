@@ -3516,6 +3516,24 @@ img {
   background-repeat: no-repeat;
 }
 
+/* /////////////////////o letter //////////////////// */
+
+.o-letter{
+  width: 26px;
+  height: 26px;
+  border-radius: 100px;
+  border: solid 10px #FFFFFF;
+  background-color: transparent;
+  transition: all 0.7s;
+}
+
+h1:hover .o-letter{
+  width: 120px;
+  border-radius: 45px;
+  border-color: #A045F2;
+}
+
+
 
 
 

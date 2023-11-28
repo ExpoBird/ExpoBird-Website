@@ -4,12 +4,12 @@ import Image from 'next/image';
 const OurServices2 = () => {
   return (
     <Fragment>
-          <div className="font-montserrat sm:mb-1 pt-28">
+          <div className="font-montserrat sm:mb-1 pt-0">
         <div className="sm:border-none border-t border-[#BDBDBD]"></div>
         <div className="sm:px-6 px-48">
           <div className="grid grid-cols-3 sm:block">
             <div className="sm:border-none font-montserrat border-r border-[#BDBDBD]">
-              <p className="text-black mr-10 sm:static sm:text-[40px] leading-none text-[85px] font-black sm:mt-0 mt-32 sm:text-center">
+              <p className="text-black mr-10 sm:static sm:text-[40px] leading-none text-[85px] font-black sm:mt-0 mt-20 sm:text-center">
                 Our Services
               </p>
               <p className="text-2xl sm:text-center sm:text-[20px] text-black my-12">
