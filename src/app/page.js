@@ -18,7 +18,7 @@ import Blog1 from './components/Blog1';
 import Technologies from './components/Technologies';
 import TestingNav from './components/TestingNav';
 
-const Home = ({ title, description }) => {
+const Home = ({ description }) => {
 
   const Menu = [
     {
@@ -59,7 +59,7 @@ const Home = ({ title, description }) => {
   return (
     <>
       <Head>
-        <title>{title}</title>
+        <title>Home - ExpoBird</title>
         <meta
           name='description'
           content={description}

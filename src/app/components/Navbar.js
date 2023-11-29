@@ -25,25 +25,25 @@ const Navbar = () => {
                 <Link href="/"><li className="text-white mr-4 text-[16px] font-semibold">
                   Home
                 </li></Link>
-                <li className="text-white mr-4 text-[16px] font-semibold">
+                <Link href="/about"><li className="text-white mr-4 text-[16px] font-semibold">
                   About Us
-                </li>
-                <li className="text-white mr-4 text-[16px] font-semibold">
+                </li></Link>
+                <Link href="/contact"><li className="text-white mr-4 text-[16px] font-semibold">
                   Contact Us
-                </li>
+                </li></Link>
                 <li className="text-white mr-4 text-[16px] font-semibold" onClick={toggleMobileMenu}>
                   Services
                 </li>
-                <li
+                <Link href="/portfolio"><li
                   className="text-white mr-10 text-[16px] font-semibold"
                 >
                   Portfolio
-                </li>
-                <li
+                </li></Link>
+                <Link href="/projects"><li
                   className="text-white mr-10 text-[16px] font-semibold"
                 >
                   Projects
-                </li>
+                </li></Link>
               </ul>
               <button className="bg-[#00A256] ml-20 justify-end px-5 py-3 rounded-[40px] text-white text-[17px] font-semibold">
                 Let’s Talk <span><Image src={"/assets/send.svg"} className="inline" width={21} height={20} alt="pic" /></span>
@@ -85,9 +85,9 @@ const Navbar = () => {
           </ul>
 
           <ul className="py-6 shadow-md shadow-[#00A256] ">
-            <li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
+            <Link href="/services/social"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
               Social Media Marketing Services
-            </li>
+            </li></Link>
             <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               FaceBook Marketing Services
             </li>
@@ -106,9 +106,9 @@ const Navbar = () => {
           </ul>
 
           <ul className="py-6 shadow-md shadow-[#00A256] ">
-            <li className="text-[26px] leading-none font-semibold  underline mb-2 px-4" onClick={closeMobileMenu}>
+            <Link href="/services/web"><li className="text-[26px] leading-none font-semibold  underline mb-2 px-4" onClick={closeMobileMenu}>
               Web Design & Development Services
-            </li>
+            </li></Link>
             <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Responsive Website Design Services
             </li>

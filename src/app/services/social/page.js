@@ -14,7 +14,7 @@ const App = ({ description }) => {
   return (
     <>
      <Head>
-        <title>Services - Digital Marketing</title>
+        <title>Services - Social media Marketing</title>
         <meta
           name='description'
           content={description}
@@ -32,13 +32,13 @@ const App = ({ description }) => {
       <div className='bg-hero-image w-full overflow-hidden'>
         <Navbar />
         <Nav2 />
-        <DigitalHero title={"Code Brew Labs is leading mobile app development company \ Dubai, helping business transform their ideas into reality. We build mobile app \
+        <DigitalHero title={"ExpoBird is leading mobile app development company \ Dubai, helping business transform their ideas into reality. We build mobile app \
          development solutions to empower startups, SMBs, enterprises and brands."}
-         text1={"We Are #1"} text2={"Digital Marketing"} text3={"Company Dubai"}
+         text1={"We Are"} text2={"Social Media Marketing"} text3={"Company"}
          />
       </div>
-      <OurService2 />
-      <FeatureWork title={"We are a team of design and research experts with over ten years of experience in improving businesses and peoples’ lives through smart design"} 
+      <OurService2 title={"Choose Expobird as your digital marketing agency and propel your business to new heights with our award-winning social media marketing services and proprietary technology platform."} />
+      <FeatureWork title={"We are a team of Social Media and research experts with over ten years of experience in improving businesses and peoples’ lives through smart design"} 
       />
       <CaseStudy />
       <Faq2 />

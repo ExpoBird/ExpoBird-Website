@@ -3519,8 +3519,8 @@ img {
 /* /////////////////////o letter //////////////////// */
 
 .o-letter{
-  width: 26px;
-  height: 26px;
+  width: 20px;
+  height: 20px;
   border-radius: 100px;
   border: solid 10px #FFFFFF;
   background-color: transparent;
@@ -3532,6 +3532,12 @@ h1:hover .o-letter{
   border-radius: 45px;
   border-color: #A045F2;
 }
+
+/* @media only screen and (max-width: 400px) {
+  .o-letter{
+   
+  }
+} */
 
 
 

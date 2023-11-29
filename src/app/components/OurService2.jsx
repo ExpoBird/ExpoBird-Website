@@ -1,34 +1,32 @@
 import React, { Fragment } from 'react';
 import Image from 'next/image';
 
-const OurServices2 = () => {
+const OurServices2 = ({ title }) => {
   return (
     <Fragment>
-          <div className="font-montserrat sm:mb-1">
+      <div className="font-montserrat sm:mb-1">
         <div className="sm:border-none border-t border-[#BDBDBD]"></div>
         <div className="sm:px-10 px-48">
           <div className="grid grid-cols-3 sm:block">
             <div className="sm:border-none font-montserrat border-r border-[#BDBDBD]">
-              <p className="text-black mr-10 sm:static sm:text-[40px] leading-none text-[85px] font-black mt-32 sm:text-center">
+              <p className="text-black mr-10 sm:static sm:text-[40px] leading-none text-[85px] font-black mt-10 sm:text-center">
                 Our Services
               </p>
               <p className="text-2xl sm:text-center sm:text-[20px] text-black my-12">
-                Choose Expobird as your digital marketing agency and propel your
-                business to new heights with our award-winning digital marketing
-                services and proprietary technology platform.
+                {title}
               </p>
               <button className="text-white sm:mt-2 sm:mb-1 sm:ml-[120px] bg-[#00A256] text-[17px] rounded-[70px] py-4 px-6 font-semibold">
-                  See All{" "}
-                  <span>
-                    <Image
-                      src={"/assets/Send.svg"}
-                      width={21}
-                      height={20}
-                      className="inline"
-                      alt="pic"
-                    />
-                  </span>
-                </button>
+                See All{" "}
+                <span>
+                  <Image
+                    src={"/assets/Send.svg"}
+                    width={21}
+                    height={20}
+                    className="inline"
+                    alt="pic"
+                  />
+                </span>
+              </button>
             </div>
             <div className="sm:border-none border-r border-[#BDBDBD] sm:grid sm:grid-cols-2">
               <div className="sm:border-none sm:px-0 px-6 py-20 border-b border-[#BDBDBD]">
