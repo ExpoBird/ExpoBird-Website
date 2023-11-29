@@ -21,11 +21,11 @@ const OurServices = () => {
                   See All{" "}
                   <span>
                     <Image
-                      src="/assets/Send.svg"
+                      src={"/assets/Send.svg"}
                       width={21}
                       height={20}
                       className="inline"
-                      alt=""
+                      alt="pic"
                     />
                   </span>
                 </button>
@@ -42,19 +42,19 @@ const OurServices = () => {
                   <button className="p-6 border border-[#ADADAD] rounded-[16px]">
                     <span>
                       <Image
-                        src="/assets/arrow-black.png"
+                        src={"/assets/arrow-black.png"}
                         width={12}
                         height={12}
                         className="scale-75"
-                        alt=""
+                        alt="pic"
                       />
                     </span>
                   </button>
                   <Image
-                    src="/assets/service-animation-01.png"
+                    src={"/assets/service-animation-01.png"}
                     width={300}
                     height={237}
-                    alt=""
+                    alt="pic"
                   />
                 </div>
               </div>
@@ -69,20 +69,20 @@ const OurServices = () => {
                   <button className="sm:border-none p-6 border border-[#ADADAD] rounded-[16px]">
                     <span>
                       <Image
-                        src="/assets/arrow-black.png"
+                        src={"/assets/arrow-black.png"}
                         width={12}
                         height={12}
                         className="scale-75"
-                        alt=""
+                        alt="pic"
                       />
                     </span>
                   </button>
                   <Image
-                    src="/assets/service-animation-03.png"
+                    src={"/assets/service-animation-03.png"}
                     width={240}
                     height={168}
                     className="mt-11"
-                    alt=""
+                    alt="pic"
                   />
                 </div>
               </div>
@@ -97,20 +97,20 @@ const OurServices = () => {
                   <button className="p-6 border border-[#ADADAD] rounded-[16px]">
                     <span>
                       <Image
-                        src="/assets/arrow-black.png"
+                        src={"/assets/arrow-black.png"}
                         width={12}
                         height={12}
                         className="scale-75"
-                        alt=""
+                        alt="pic"
                       />
                     </span>
                   </button>
                   <Image
-                    src="/assets/service-animation-05.png"
+                    src={"/assets/service-animation-05.png"}
                     width={194}
                     height={128}
                     className="mt-11"
-                    alt=""
+                    alt="pic"
                   />
                 </div>
               </div>
@@ -125,20 +125,20 @@ const OurServices = () => {
                   <button className="p-6 border text-black rounded-[16px]">
                     <span>
                       <Image
-                        src="/assets/arrow-black.png"
+                        src={"/assets/arrow-black.png"}
                         width={12}
                         height={12}
                         className="scale-75"
-                        alt=""
+                        alt="pic"
                       />
                     </span>
                   </button>
                   <Image
-                    src="/assets/service-animation-07.png"
+                    src={"/assets/service-animation-07.png"}
                     width={137}
                     height={150}
                     className="mt-11"
-                    alt=""
+                    alt="pic"
                   />
                 </div>
               </div>
@@ -155,19 +155,19 @@ const OurServices = () => {
                   <button className="p-6 border border-[#ADADAD] rounded-[16px]">
                     <span>
                       <Image
-                        src="/assets/arrow-black.png"
+                        src={"/assets/arrow-black.png"}
                         width={12}
                         height={12}
                         className="scale-75"
-                        alt=""
+                        alt="pic"
                       />
                     </span>
                   </button>
                   <Image
-                    src="/assets/service-animation-02.png"
+                    src={"/assets/service-animation-02.png"}
                     width={244}
                     height={154}
-                    alt=""
+                    alt="pic"
                   />
                 </div>
               </div>
@@ -182,20 +182,20 @@ const OurServices = () => {
                   <button className="p-6 border border-[#ADADAD] rounded-[16px]">
                     <span>
                       <Image
-                        src="/assets/arrow-black.png"
+                        src={"/assets/arrow-black.png"}
                         width={12}
                         height={12}
                         className="scale-75"
-                        alt=""
+                        alt="pic"
                       />
                     </span>
                   </button>
                   <Image
-                    src="/assets/service-animation-04.png"
+                    src={"/assets/service-animation-04.png"}
                     width={276}
                     height={169}
                     className="mt-11"
-                    alt=""
+                    alt="pic"
                   />
                 </div>
               </div>
@@ -210,20 +210,20 @@ const OurServices = () => {
                   <button className="p-6 border border-[#ADADAD] rounded-[16px]">
                     <span>
                       <Image
-                        src="/assets/arrow-black.png"
+                        src={"/assets/arrow-black.png"}
                         width={12}
                         height={12}
                         className="scale-75"
-                        alt=""
+                        alt="pic"
                       />
                     </span>
                   </button>
                   <Image
-                    src="/assets/service-animation-06.png"
+                    src={"/assets/service-animation-06.png"}
                     width={218}
                     height={79}
                     className="mt-11"
-                    alt=""
+                    alt="pic"
                   />
                 </div>
               </div>
@@ -238,20 +238,20 @@ const OurServices = () => {
                   <button className="p-6 border border-[#ADADAD] rounded-[16px]">
                     <span>
                       <Image
-                        src="/assets/arrow-black.png"
+                        src={"/assets/arrow-black.png"}
                         width={12}
                         height={12}
                         className="scale-75"
-                        alt=""
+                        alt="pic"
                       />
                     </span>
                   </button>
                   <Image
-                    src="/assets/service-animation-08.png"
+                    src={"/assets/service-animation-08.png"}
                     width={129}
                     height={133}
                     className="mt-11"
-                    alt=""
+                    alt="pic"
                   />
                 </div>
               </div>

@@ -26,11 +26,11 @@ const Driven = () => {
                   Contact Us{" "}
                   <span>
                     <Image
-                      src="/assets/Send.svg"
+                      src={"/assets/Send.svg"}
                       width={21}
                       height={20}
                       className="inline"
-                      alt=""
+                      alt="pic"
                     />
                   </span>
                 </button>
@@ -39,7 +39,7 @@ const Driven = () => {
           </div>
           <div>
             <Image 
-              src="/assets/hero-image.png"
+              src={"/assets/hero-image.png"}
               width={800}
               height={750}
               alt=""

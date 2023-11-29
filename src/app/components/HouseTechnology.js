@@ -25,10 +25,10 @@ const HouseTechnology = () => {
           </div>
           <div>
             <Image
-              src="/assets/benefits.webp.png"
+              src={"/assets/benefits.webp.png"}
               width={749}
               height={598}
-              alt=""
+              alt="pic"
               className=" sideChangeImage sm:hidden mt-20 sm:h-300 sm:w-300"
             />
           </div>
@@ -37,10 +37,10 @@ const HouseTechnology = () => {
           <div className="sm:grid sm:grid-cols-1 sm:gap-x-6 sm:px-10 grid grid-cols-2 items-center gap-x-24 px-48">
             <div>
               <Image
-                src="/assets/benefits.webp.png"
+                src={"/assets/benefits.webp.png"}
                 width={749}
                 height={598}
-                alt=""
+                alt="pic"
                 className='md:hidden lg:hidden 2xl:hidden xl:hidden'
               />
             </div>
@@ -76,11 +76,11 @@ const HouseTechnology = () => {
                   Get A proposal{" "}
                   <span>
                     <Image
-                      src="/assets/Send.svg"
+                      src={"/assets/Send.svg"}
                       width={21}
                       height={20}
                       className="inline  invert brightness-0"
-                      alt=""
+                      alt="pic"
                     />
                   </span>
                 </button>

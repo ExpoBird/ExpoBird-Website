@@ -44,7 +44,7 @@ export const Slider2 = ({ slides }) => {
             key={index}
           >
             {index === current && (
-              <Image src={slide.img} alt='' className='image' width={1152} height={636} />
+              <Image src={slide.img} alt='pic' className='image' width={1152} height={636} />
             )}
           </div>
         );

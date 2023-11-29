@@ -7,14 +7,13 @@ const Blog1 = ({ menuData }) => {
       <p className="text-[85px] sm:text-center sm:text-[40px] sm:mt-[150px] font-bold font-montserrat text-black sm:mb-[10px] sm:ml-0 ml-[85px]">Our Blogs</p>
       <section className="main-card--cointainer">
         {
-          menuData.map((curElem,key) => {
+          menuData.map((curElem) => {
             const { id, name, category, image, description } = curElem;
             return (
-              <>
+             <div key={id}>
                 <div className="font-montserrat card-container-blog">
                   <div className="card-blog">
                     <div className="card-body-blog">
-                      <div>{key}</div>
                       <span className="card-number card-circle subtle">{id}</span>
                       <span className="card-author subtle">{category}</span>
                       <h2 className="card-title">{name}</h2>
@@ -25,11 +24,11 @@ const Blog1 = ({ menuData }) => {
                     </div>
                     <img src={image} alt="images" className="card-media" />
                     <span className="card-tag  subtle">See All
-                      <img src="/assets/Send.svg" className="h-[20px] w-[20px] inline mb-[3px] ml-[6px]" />
+                      <img src={"/assets/Send.svg"} alt="img" className="h-[20px] w-[20px] inline mb-[3px] ml-[6px]" />
                     </span>
                   </div>
                 </div>
-              </>
+                </div>
             );
           })}
       </section>

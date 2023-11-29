@@ -14,16 +14,16 @@ const Footer = () => {
                 <p className="text-white sm:text-[20px] sm:leading-none sm:text-center sm:py-4 text-[24px] py-20">New York Division One World Trade Center New York, NY 10007</p>
                 <div className="flex items-center">
                   <Link href="/">
-                    <Image src="/assets/media-link01.svg" height={0} width={0} className="pr-10" alt="" />
+                    <Image src={"/assets/media-link01.svg"} height={0} width={0} className="pr-10" alt="" />
                   </Link>
                   <Link href="/">
-                    <Image src="/assets/media-link02.svg" height={0} width={0} className="pr-10" alt="" />
+                    <Image src={"/assets/media-link02.svg"} height={0} width={0} className="pr-10" alt="" />
                   </Link>
                   <Link href="/">
-                    <Image src="/assets/media-link03.svg" height={0} width={0} className="pr-10" alt="" />
+                    <Image src={"/assets/media-link03.svg"} height={0} width={0} className="pr-10" alt="" />
                   </Link>
                   <Link href="/">
-                    <Image src="/assets/media-link04.svg" height={0} width={0} className="" alt="" />
+                    <Image src={"/assets/media-link04.svg"} height={0} width={0} className="" alt="" />
                   </Link>
                 </div>
               </div>

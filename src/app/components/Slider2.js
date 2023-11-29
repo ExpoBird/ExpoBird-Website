@@ -32,7 +32,7 @@ const Slider2 = ({ slides }) => {
             key={index}
           >
             {index === current && (
-              <Image src={slide.img} alt='' className='image mt-10' />
+              <Image src={slide.img} alt='pic' className='image mt-10' />
             )}
           </div>
         );

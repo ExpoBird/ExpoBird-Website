@@ -11,37 +11,37 @@ const Clients = () => {
         <article className="wrapper sm:py-1 sm:pb-0 pb-20">
           <div className="marquee">
             <div className="marquee__group">
-              <Image src="/assets/client01.png" height={211} width={274} alt="" />
-              <Image src="/assets/client02.png" height={211} width={274} alt="" />
-              <Image src="/assets/client03.png" height={211} width={274} alt="" />
-              <Image src="/assets/client04.png" height={211} width={274} alt="" />
-              <Image src="/assets/client05.png" height={211} width={274} alt="" />
+              <Image src={"/assets/client01.png"} height={211} width={274} alt="pic" />
+              <Image src={"/assets/client02.png"} height={211} width={274} alt="pic" />
+              <Image src={"/assets/client03.png"} height={211} width={274} alt="pic" />
+              <Image src={"/assets/client04.png"} height={211} width={274} alt="pic" />
+              <Image src={"/assets/client05.png"} height={211} width={274} alt="pic" />
             </div>
 
             <div aria-hidden="true" className="marquee__group">
-              <Image src="/assets/client01.png" height={211} width={274} alt="" />
-              <Image src="/assets/client02.png" height={211} width={274} alt="" />
-              <Image src="/assets/client03.png" height={211} width={274} alt="" />
-              <Image src="/assets/client04.png" height={211} width={274} alt="" />
-              <Image src="/assets/client05.png" height={211} width={274} alt="" />
+              <Image src={"/assets/client01.png"} height={211} width={274} alt="pic" />
+              <Image src={"/assets/client02.png"} height={211} width={274} alt="pic" />
+              <Image src={"/assets/client03.png"} height={211} width={274} alt="pic" />
+              <Image src={"/assets/client04.png"} height={211} width={274} alt="pic" />
+              <Image src={"/assets/client05.png"} height={211} width={274} alt="pic" />
             </div>
           </div>
 
           <div className="marquee marquee--reverse">
             <div className="marquee__group">
-              <Image src="/assets/client01.png" height={211} width={274} alt="" />
-              <Image src="/assets/client02.png" height={211} width={274} alt="" />
-              <Image src="/assets/client03.png" height={211} width={274} alt="" />
-              <Image src="/assets/client04.png" height={211} width={274} alt="" />
-              <Image src="/assets/client05.png" height={211} width={274} alt="" />
+              <Image src={"/assets/client01.png"} height={211} width={274} alt="pic" />
+              <Image src={"/assets/client02.png"} height={211} width={274} alt="pic" />
+              <Image src={"/assets/client03.png"} height={211} width={274} alt="pic" />
+              <Image src={"/assets/client04.png"} height={211} width={274} alt="pic" />
+              <Image src={"/assets/client05.png"} height={211} width={274} alt="pic" />
             </div>
 
             <div aria-hidden="true" className="marquee__group">
-              <Image src="/assets/client01.png" height={211} width={274} alt="" />
-              <Image src="/assets/client02.png" height={211} width={274} alt="" />
-              <Image src="/assets/client03.png" height={211} width={274} alt="" />
-              <Image src="/assets/client04.png" height={211} width={274} alt="" />
-              <Image src="/assets/client05.png" height={211} width={274} alt="" />
+              <Image src={"/assets/client01.png"} height={211} width={274} alt="pic" />
+              <Image src={"/assets/client02.png"} height={211} width={274} alt="pic" />
+              <Image src={"/assets/client03.png"} height={211} width={274} alt="pic" />
+              <Image src={"/assets/client04.png"} height={211} width={274} alt="pic" />
+              <Image src={"/assets/client05.png"} height={211} width={274} alt="pic" />
             </div>
           </div>
         </article>

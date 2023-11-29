@@ -96,44 +96,44 @@ const Technologies = () => {
                 src={"/assets/apple-logo.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/android-logo.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/reactjs_logo_icon_206693.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/reaction.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/java.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
 
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/flutter_logo_icon_145273.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/swift.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
             </section>
             <section className="sm:gap-10 flex-row justify-around sm:justify-evenly flex-wrap">
@@ -141,44 +141,44 @@ const Technologies = () => {
                 src={"/assets/reactjs_logo_icon_206693.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/html.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/free-typescript-2336947-1982828.webp"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/image_processing20210620-8688-1dquhxp.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
 
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/next-js.svg"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/java.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/vue_js_icon_188136.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
             </section>
             <section className="sm:gap-10 flex-row justify-around sm:justify-evenly flex-wrap">
@@ -186,38 +186,38 @@ const Technologies = () => {
                 src={"/assets/brand_redis_icon_157818.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/brand_mongodb_icon_157872.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
                   <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/prisma-3.svg"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
              
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/mysql.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/sql-server.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/brand_redis_icon_157818.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic1"
               />
             </section>
             <section className="sm:gap-10 flex-row justify-around sm:justify-evenly flex-wrap">
@@ -225,37 +225,37 @@ const Technologies = () => {
                 src={"/assets/php.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/java.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
                  <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/next-js.svg"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/brand_nodejs_icon_157858.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/express_js-161052138fa79136c0474521906b55e2.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/brand_redis_icon_157818.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
             </section>
 
@@ -264,32 +264,32 @@ const Technologies = () => {
                 src={"/assets/shopify.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/wordpress-logo.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/free-magento-2-432454.webp"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
                  <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/contentful_logo_icon_247280.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
 
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/wordpress-logo.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
             </section>
 
@@ -298,38 +298,38 @@ const Technologies = () => {
                 src={"/assets/azure.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/docker.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/social.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/458320.webp"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/linode-icon-1708x2048-d43gcf2g.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
 
               <Image className='sm:h-[55px] sm:w-[54px]'
                 src={"/assets/gradle_icon_132342.png"}
                 width={100}
                 height={100}
-                alt=""
+                alt="pic"
               />
             </section>
           </div>

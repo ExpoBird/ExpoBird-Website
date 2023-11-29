@@ -18,18 +18,18 @@ const Hero = () => {
                       </div>
                       <p className="sm:text-[20px] mb-5 sm:leading-[25px] md:text-[20px] max-w-[720px] mx-auto text-[25px] leading-none text-white mt-10 sm:mt-5">We turn your ideas into numbers. ExpoShopify  helps you grow your eCommerce store with a proven record of successful case studies.</p>
                       <button className="bg-[#00A256] right-[70px] justify-end px-6 py-4 rounded-[40px] text-white text-[17px] font-semibold">
-              Let’s Talk <span><Image src="/assets/send.svg" className="inline" width={21} height={20} alt="" /></span>
+              Let’s Talk <span><Image src={"/assets/send.svg"} className="inline" width={21} height={20} alt="pic" /></span>
             </button>
                          
               
                       <div className=" sm:mt-[40px] mx-auto mt-10">
                         <div className="gap-20 sm:grid sm:grid-cols-3 sm:flex-wrap  md:grid md:grid-cols-2 sm:gap-10 flex items-center justify-center">
-                        <Image  src="/assets/award01.svg" height={25} width={150} alt="pic" />
-                  <Image  src="/assets/award02.svg" height={25} width={89} alt="pic" />
-                  <Image  src="/assets/award03.svg" height={35} width={119} alt="pic" />
-                  <Image  src="/assets/award04.svg" height={31} width={124} alt="pic" />
-                  <Image  src="/assets/partner01.png" height={32} width={125} alt="pic" />
-                  <Image  src="/assets/partner04.png" height={33} width={126} alt="pic" />
+                        <Image  src={"/assets/award01.svg"} height={25} width={150} alt="pic" />
+                  <Image  src={"/assets/award02.svg"} height={25} width={89} alt="pic" />
+                  <Image  src={"/assets/award03.svg"} height={35} width={119} alt="pic" />
+                  <Image  src={"/assets/award04.svg"} height={31} width={124} alt="pic" />
+                  <Image  src={"/assets/partner01.png"} height={32} width={125} alt="pic" />
+                  <Image  src={"/assets/partner04.png"} height={33} width={126} alt="pic" />
                         </div>
                       </div>
                   </div>
