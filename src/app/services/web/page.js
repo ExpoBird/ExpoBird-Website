@@ -1,5 +1,4 @@
 import Script from 'next/script';
-import Head from 'next/head';
 import DigitalHero from '@/app/components/DigitalHero';
 import Navbar from '@/app/components/Navbar';
 import OurService2 from '@/app/components/OurService2';
@@ -7,20 +6,12 @@ import FeatureWork from '@/app/components/FeatureWork';
 import CaseStudy from '@/app/components/CaseStudy';
 import Footer from '@/app/components/Footer';
 import Faq2 from '@/app/components/Faq2';
-import Nav2 from '@/app/components/Nav2';
 import Driven2 from '@/app/components/Driven2';
+import TestingNav from '@/app/components/TestingNav';
 
-const App = ({ description }) => {
+const App = () => {
   return (
     <>
-     <Head>
-        <title>Services - Social media Marketing</title>
-        <meta
-          name='description'
-          content={description}
-          key="desc"
-        />
-      </Head>
       <Script
         src="/scripts/script-1.js"
         strategy="lazyOnload"
@@ -31,18 +22,26 @@ const App = ({ description }) => {
       ></Script>
       <div className='bg-hero-image w-full overflow-hidden'>
         <Navbar />
-        <Nav2 />
+        <TestingNav />
         <DigitalHero title={"ExpoBird is leading mobile app development company \ Dubai, helping business transform their ideas into reality. We build mobile app \
          development solutions to empower startups, SMBs, enterprises and brands."}
-         text1={"We Are"} text2={"Web Development"} text3={"Company"}
-         />
+          text1={"We Are"} text2={"Web Development"} text3={"Company"}
+        />
       </div>
       <OurService2 title={"Choose Expobird as your Software Company and propel your business to new heights with our award-winning Web Development services and proprietary technology platform."} />
-      <FeatureWork title={"We are a team of Web Developers and research experts with over ten years of experience in improving businesses and peoples’ lives through smart design"} 
+      <FeatureWork title={"We are a team of Web Developers and research experts with over ten years of experience in improving businesses and peoples’ lives through smart design"}
       />
       <CaseStudy />
-      <Faq2 />
-      <Driven2 />
+      <Faq2 question={"which technology used for creating mobile applications"}
+        answer={"React Native, Flutter, Ionic, JavaScript, Kotlin, Java, Swift"}
+        question2={"which technology used for creating Web applications"}
+        answer2={"React JS, Node JS, Express JS, Next JS, Angular JS, Vue JS, Tailwind Css"}
+        question3={"which technology used for creating Dev Ops"}
+        answer3={"Docker, Kubernetes, Linux, azure, Aws"}
+        question4={"which technology used for creating Backend applications"}
+        answer4={"Django, Node JS, Express JS, Next JS"}
+        para={"Can Software integrate with other platforms and services?"} />
+      <Driven2 para={"Choose Expobird as your software development agency and propel your business to new heights with our award-winning software development services and proprietary technology platform."} />
       <Footer />
     </>
   )

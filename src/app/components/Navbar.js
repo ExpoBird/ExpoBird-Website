@@ -132,9 +132,9 @@ const Navbar = () => {
             </li>
           </ul>
           <ul className="py-6 shadow-md shadow-[#00A256] ">
-            <li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
+            <Link href="/services/commerce"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
               E-commerce Development Services
-            </li>
+            </li></Link>
             <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               BigCommerce Development
             </li>
@@ -152,9 +152,9 @@ const Navbar = () => {
             </li>
           </ul>
           <ul className="py-6 shadow-md shadow-[#00A256]">
-            <li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
+            <Link href="/services/video"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
               Video Production Services
-            </li>
+            </li></Link>
             <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               TV commercial
             </li>
@@ -176,9 +176,9 @@ const Navbar = () => {
           </ul>
 
           <ul className="py-6 shadow-md shadow-[#00A256]">
-            <li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
+            <Link href="/services/animation"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
               Animation Services
-            </li>
+            </li></Link>
             <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Whiteboard Animation
             </li>
@@ -203,9 +203,9 @@ const Navbar = () => {
           </ul>
 
           <ul className="py-6 shadow-md shadow-[#00A256]">
-            <li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
+            <Link href="/services/ui"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
               UI/UX Design Services
-            </li>
+            </li></Link>
             <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               High-fidelity Prototype
             </li>
@@ -227,9 +227,9 @@ const Navbar = () => {
           </ul>
 
           <ul className="py-6 shadow-md shadow-[#00A256]">
-            <li className="text-[26px] leading-none font-semibold underline  mb-4 px-4" onClick={closeMobileMenu}>
+            <Link href="/services/appdev"><li className="text-[26px] leading-none font-semibold underline  mb-4 px-4" onClick={closeMobileMenu}>
               Application Development Services
-            </li>
+            </li></Link>
             <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Native Mobile App Development
             </li>

@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import Image from 'next/image'
 
-const Driven = () => {
+const Driven = ({ para }) => {
   return (
    <Fragment>
      <div className="font-montserrat sm:-ml-[120px] sm:rounded-b-[10px] md:rounded-b-[10px] md:-ml-[120px] bg-[#151515] px-48 mb-24">
@@ -11,9 +11,7 @@ const Driven = () => {
               Data-Driven Revenue Marketing
             </p>
             <p className="sm:text-[20px] sm:pr-[24px] sm:text-center  sm:flex-wrap text-white text-2xl leading-none max-w-[820px] my-12">
-              Choose Expobird as your digital marketing agency and propel your
-              business to new heights with our award-winning digital marketing
-              services and proprietary technology platform.
+              {para}
             </p>
             <form>
               <label className="block ">

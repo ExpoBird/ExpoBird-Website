@@ -13,19 +13,23 @@ const App = () => {
   return (
     <>
       <Script
+        src="/scripts/script-1.js"
+        strategy="lazyOnload"
+      ></Script>
+      <Script
         src="/scripts/script-3.js"
         strategy="lazyOnload"
       ></Script>
       <div className='bg-hero-image w-full overflow-hidden'>
         <Navbar />
         <TestingNav />
-        <DigitalHero title={"Code Brew Labs is leading mobile app development company \ Dubai, helping business transform their ideas into reality. We build mobile app \
+        <DigitalHero title={"ExpoBird is leading mobile app development company \ Dubai, helping business transform their ideas into reality. We build mobile app \
          development solutions to empower startups, SMBs, enterprises and brands."}
-          text1={"We Are #1"} text2={"Digital Marketing"} text3={"Company Dubai"}
+          text1={"We Are"} text2={"UI/UX Designer"} text3={"Company"}
         />
       </div>
-      <OurService2 />
-      <FeatureWork title={"We are a team of design and research experts with over ten years of experience in improving businesses and peoples’ lives through smart design"}
+      <OurService2 title={"Choose Expobird as your digital marketing agency and propel your business to new heights with our award-winning UI/UX Designer services and proprietary technology platform."} />
+      <FeatureWork title={"We are a team of UI/UX Designer and research experts with over ten years of experience in improving businesses and peoples’ lives through smart design"}
       />
       <CaseStudy />
       <Faq2 question={"which technology used for creating mobile applications"}
