@@ -40,7 +40,7 @@ const Home = ({ description }) => {
     },
     {
       id: 3,
-      image: "/assets/cta-image02.png",
+      image: "/assets/F7148507-7860-465B-950B-2F55B420CEDB-1229-0000010877FFE7CA_tmp-1.jpg",
       name: "Node js",
       category: "Backend",
       description:
@@ -48,7 +48,7 @@ const Home = ({ description }) => {
     },
     {
       id: 4,
-      image: "/assets/cta-image02.png",
+      image: "/assets/7-ways-a-blog-can-help-your-business-right-now-5f3c06b9eb24e.webp",
       name: "Next js",
       category: "Frontend",
       description:

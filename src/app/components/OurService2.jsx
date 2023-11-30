@@ -15,7 +15,7 @@ const OurServices2 = ({ title }) => {
               <p className="text-2xl sm:text-center sm:text-[20px] text-black my-12">
                 {title}
               </p>
-              <button className="text-white sm:mt-2 sm:mb-1 sm:ml-[120px] bg-[#00A256] text-[17px] rounded-[70px] py-4 px-6 font-semibold">
+              <button className="text-white sm:mt-2 sm:mb-1 sm:ml-[110px] bg-[#00A256] text-[17px] rounded-[70px] py-4 px-6 font-semibold">
                 See All{" "}
                 <span>
                   <Image

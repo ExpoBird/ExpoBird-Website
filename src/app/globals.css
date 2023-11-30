@@ -3346,7 +3346,6 @@ img {
 }
 
 .card-tag {
-  float: right;
   margin: 5px 0 0;
   background-color: #00A256;
   padding: 1rem 2rem;
@@ -3355,6 +3354,7 @@ img {
   border-radius: 50px;
   cursor: pointer;
   position: relative;
+  margin-left: 152px;
 }
 
 @media screen and (min-width: 420px) {
@@ -3537,6 +3537,10 @@ h1:hover .o-letter{
   .o-letter{
    
   }
+} */
+
+/* .script-img{
+  transform: translate(-116%, 155%);
 } */
 
 

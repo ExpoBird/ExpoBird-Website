@@ -26,10 +26,10 @@ const HouseTechnology = () => {
           <div>
             <Image
               src={"/assets/benefits.webp.png"}
-              width={749}
-              height={598}
+              width={550}
+              height={450}
               alt="pic"
-              className=" sideChangeImage sm:hidden mt-20 sm:h-300 sm:w-300"
+              className=" sideChangeImage script-img sm:hidden mt-20 sm:h-300 sm:w-300"
             />
           </div>
         </div>
