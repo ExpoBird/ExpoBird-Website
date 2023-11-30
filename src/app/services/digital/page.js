@@ -11,6 +11,7 @@ import Nav from '@/app/components/Nav';
 import Blog1 from '@/app/components/Blog1';
 import WorkProcess from '@/app/components/WorkProcess';
 
+
 const App = () => {
   const Menu = [
     {

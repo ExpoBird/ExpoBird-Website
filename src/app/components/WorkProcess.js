@@ -1,9 +1,9 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Image from 'next/image';
 
 const WorkProcess = () => {
     return (
-        <Fragment>
+        <>
             <div className="px-48 my-48 relative font-montserrat flyCardStacks">
                 <div className="flex items-center justify-between">
                     <div>
@@ -76,7 +76,8 @@ const WorkProcess = () => {
                     </div>
                 </div>
             </div>
-        </Fragment>
+
+        </>
     )
 }
 

@@ -3354,13 +3354,11 @@ img {
   border-radius: 50px;
   cursor: pointer;
   position: relative;
-  margin-left: 152px;
+  margin-left: 170px;
 }
 
 @media screen and (min-width: 420px) {
   .card-tag {
-    float: none;
-    position: relative;
     margin-left:102px;
     top:7px;
   }

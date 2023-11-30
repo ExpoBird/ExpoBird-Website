@@ -1,6 +1,5 @@
 import React from 'react';
 import Script from 'next/script';
-import Head from 'next/head';
 import Hero from './components/Hero';
 import OurServices from './components/OurServices';
 import Counter from './components/Counter';
@@ -18,7 +17,7 @@ import Blog1 from './components/Blog1';
 import Technologies from './components/Technologies';
 import TestingNav from './components/TestingNav';
 
-const Home = ({ description }) => {
+const Home = () => {
 
   const Menu = [
     {
@@ -62,14 +61,6 @@ const Home = ({ description }) => {
         src="/scripts/script-1.js"
         strategy="lazyOnload"
       ></Script>
-      <Head>
-        <title>Home - ExpoBird</title>
-        <meta
-          name='description'
-          content={description}
-          key="desc"
-        />
-      </Head>
       <Navbar />
       <TestingNav />
       <Hero />

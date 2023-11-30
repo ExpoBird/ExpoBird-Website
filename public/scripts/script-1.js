@@ -1,5 +1,4 @@
 "use strict";
-gsap.registerPlugin(ScrollTrigger);
 
 //////////////////// FAQ ///////////////////////
 
@@ -43,7 +42,6 @@ function toggleAccordion() {
   }
 
 })();
-
 
 /////////////////// side image //////////////////////
 
@@ -95,55 +93,5 @@ $(".accordion-nav").click(function (e) {
   }
 });
 
-
-
 ///////////////////// work process card /////////////////////
 
-
-let timeln1 = gsap.timeline({
-  scrollTrigger: {
-    trigger: ".flyCardStacks",
-    pin: true,
-    pinSpacing: true,
-    start: "left-=120px left",
-    end: "+=2000",
-    scrub : 1,
-  },
-});
-
-timeln1.addLabel("flycard1");
-timeln1.from(".flyCard-1", {
-  yPercent: 0,
-  opacity: 1,
-});
-
-timeln1.addLabel("flycard2");
-
-timeln1.to(".flyCard-1", {
-  yPercent: -150,
-  rotation: 180,
-});
-
-timeln1.from(".flyCard-2", {
-  yPercent: 0,
-  opacity: 1,
-});
-
-timeln1.addLabel("flycard3");
-
-timeln1.to(".flyCard-2", {
-  yPercent: -150,
-  rotation: 180,
-});
-
-timeln1.from(".flyCard-3", {
-  yPercent: 0,
-  opacity: 1,
-});
-
-timeln1.addLabel("flycard4");
-
-timeln1.to(".flyCard-3", {
-  yPercent: -150,
-  rotation: 180,
-});
