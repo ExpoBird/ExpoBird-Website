@@ -1,7 +1,7 @@
 # ExpoBird-Website
-Next Js
+# Next Js
 
-clone project
-then run npm install
-cd epobird
-npm run dev
+# clone project
+# then run npm install
+# cd epobird
+# npm run dev
