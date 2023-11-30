@@ -2,7 +2,7 @@ import styles from "../style";
 import Button from "./Button";
 import Image from "next/image";
 
-const DigitalHero = ({ title, text1, text2, text3 }) => (
+const DigitalHero = ({ title, text1, text2, text3, title1, title2 }) => (
   <section className={` ${styles.flexCenter} flex-col flex-wrap sm:mb-10 mb-16 mt-16`}>
     <div className="text-center">
       <h1 className={`${styles.heading1} font-montserrat`}>
@@ -13,7 +13,10 @@ const DigitalHero = ({ title, text1, text2, text3 }) => (
       </h1>
     </div>
     <div className="text-center my-8">
-      <p className={`${styles.paragraph} font-montserrat`}>{title}</p>
+      <p className={`${styles.paragraph} font-montserrat`}>{title} <br />
+      {title1} <br />
+      {title2}
+      </p>
     </div>
     <Button  buttonText={"Let's Talk"} />
     <div className=" sm:mt-[40px] mx-auto mt-10">

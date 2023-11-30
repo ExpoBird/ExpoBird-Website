@@ -58,6 +58,10 @@ const Home = ({ description }) => {
   ];
   return (
     <>
+      <Script
+        src="/scripts/script-1.js"
+        strategy="lazyOnload"
+      ></Script>
       <Head>
         <title>Home - ExpoBird</title>
         <meta
@@ -66,16 +70,6 @@ const Home = ({ description }) => {
           key="desc"
         />
       </Head>
-      <Script
-        src="/scripts/script-1.js"
-        strategy="lazyOnload"
-      ></Script>
-
-      <Script
-        src="/scripts/script-3.js"
-        strategy="lazyOnload"
-      ></Script>
-
       <Navbar />
       <TestingNav />
       <Hero />

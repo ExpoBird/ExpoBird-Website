@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const Navbar = () => {
+const Nav = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="sm:hidden px-24 font-montserrat flex items-center justify-center bg-[#151515] relative">
+      <div className="sm:hidden px-24 font-montserrat flex items-center justify-center bg-[#060617] relative">
         <div className="w-full">
           <nav className="py-6 w-full flex items-center justify-between">
             <Image src={"/assets/logo.svg"} width={150} height={50} alt="pic" />
@@ -256,4 +256,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Nav;

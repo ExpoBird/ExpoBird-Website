@@ -2,7 +2,7 @@ const styles = {
     boxWidth: "w-full",
   
     heading1: "font-montserrat font-bold sm:text-[30px] sm:leading-[35px] text-[60px] text-white leading-[72px]",
-    heading2: "font-montserrat font-semibold xs:text-[60px] text-white xs:leading-[72px]",
+    heading2: "font-montserrat font-semibold text-[60px] sm:text-[60px] text-white sm:leading-[72px]",
     paragraph: "font-montserrat font-normal sm:leading-[20px] sm:text-[17px] text-white text-[24px] leading-[29px]",
     paragraph2: "font-montserrat font-medium text-white text-[30px] leading-[36px]",
     paragraph3: "font-montserrat font-medium text-white text-[20px] leading-[28px]",
