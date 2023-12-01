@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Hero = () => {
   return (
     <>
-      <div className="sm:pt-[60px] sm:relative sm:z-10 px-24 flex items-center font-montserrat justify-center relative">
+      <div className="sm:pt-[170px] sm:relative sm:z-10 px-24 flex items-center font-montserrat justify-center relative">
           <div className="w-full">
               <section className="py-24 sm:py-4 w-full flex items-center justify-center">
                   <div className="text-center">
@@ -20,8 +20,6 @@ const Hero = () => {
                       <button className="bg-[#00A256] right-[70px] justify-end px-6 py-4 rounded-[40px] text-white text-[17px] font-semibold">
               Let’s Talk <span><Image src={"/assets/send.svg"} className="inline" width={21} height={20} alt="pic" /></span>
             </button>
-                         
-              
                       <div className=" sm:mt-[40px] mx-auto mt-10">
                         <div className="gap-20 sm:grid sm:grid-cols-3 sm:flex-wrap  md:grid md:grid-cols-2 sm:gap-10 flex items-center justify-center">
                         <Image  src={"/assets/award01.svg"} height={25} width={150} alt="pic" />

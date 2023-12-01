@@ -76,7 +76,6 @@ const WorkProcess = () => {
                     </div>
                 </div>
             </div>
-
         </>
     )
 }
