@@ -130,7 +130,7 @@ const Technologies = () => {
                 alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
-                src={"/assets/swift.png"}
+                src={"/assets/tech/swift_logo_icon_144823.png"}
                 width={100}
                 height={100}
                 alt="pic"
@@ -175,7 +175,7 @@ const Technologies = () => {
                 alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
-                src={"/assets/vue_js_icon_188136.png"}
+                src={"/assets/tech/vue_js_icon_188136.png"}
                 width={100}
                 height={100}
                 alt="pic"
@@ -208,7 +208,7 @@ const Technologies = () => {
                 alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
-                src={"/assets/sql-server.png"}
+                src={"/assets/tech/png-clipart-database-computer-icons-microsoft-sql-server-database-miscellaneous-black.png"}
                 width={100}
                 height={100}
                 alt="pic"
@@ -261,13 +261,13 @@ const Technologies = () => {
 
             <section className="sm:gap-10 flex-row justify-around sm:justify-evenly flex-wrap">
               <Image className='sm:h-[55px] sm:w-[54px]'
-                src={"/assets/shopify.png"}
+                src={"/assets/tech/shopify-icon-black1212.logowik.com.webp"}
                 width={100}
                 height={100}
                 alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
-                src={"/assets/wordpress-logo.png"}
+                src={"/assets/tech/wordpress-black1876.jpg"}
                 width={100}
                 height={100}
                 alt="pic"
@@ -286,7 +286,7 @@ const Technologies = () => {
               />
 
               <Image className='sm:h-[55px] sm:w-[54px]'
-                src={"/assets/wordpress-logo.png"}
+                src={"/assets/tech/wordpress-black1876.jpg"}
                 width={100}
                 height={100}
                 alt="pic"
@@ -307,7 +307,7 @@ const Technologies = () => {
                 alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
-                src={"/assets/social.png"}
+                src={"/assets/tech/kubernetes_logo_icon_214720.png"}
                 width={100}
                 height={100}
                 alt="pic"
