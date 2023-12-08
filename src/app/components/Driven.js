@@ -20,7 +20,7 @@ const Driven = ({ para }) => {
                   placeholder="Enter Your Email"
                   className="sm:mb-5 sm:min-w-[300px] md:min-w-[390px] rounded-[40px] bg-transparent outline-[#5D6BD9] outline outline-1 border-none py-4 px-9 min-w-[420px] placeholder:text-white placeholder:text-center text-base text-white mr-8"
                 />
-                <button className="text-white sm:mt-[20px] sm:ml-[140px] sm:mb-[52px] mb-10 mt-[40px] text-[17px] bg-[#00A256] rounded-[70px] py-4 px-6 font-semibold">
+                <button className="text-white sm:mt-[20px] sm:ml-[100px] sm:mb-[52px] mb-10 mt-[40px] text-[17px] bg-[#00A256] rounded-[70px] py-4 px-6 font-semibold">
                   Contact Us{" "}
                   <span>
                     <Image
