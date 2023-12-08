@@ -12,6 +12,10 @@ import TestingNav from '@/app/components/TestingNav';
 const App = () => {
   return (
     <>
+       <Script
+        src="/scripts/script-1.js"
+        strategy="lazyOnload"
+      ></Script>
       <Script
         src="/scripts/script-3.js"
         strategy="lazyOnload"
