@@ -57,7 +57,7 @@ const Counter = () => {
               with us?</h6>
             <div className="text-center">
             <button className="text-white sm:mb-0 mb-10 mt-6 bg-[#00A256] rounded-[70px] py-4 px-6 font-semibold text-[17px]">
-                  Let's Talk{" "}
+                  Let's Talk
                   <span>
                     <Image
                       src={"/assets/Send.svg"}

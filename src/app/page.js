@@ -83,7 +83,7 @@ const Home = ({ description }) => {
       <OurServices />
       <Counter />
       <CaseStudy />
-      <FeatureWork title={"We are a team of design and research experts with over ten years of experience in improving businesses and peoples’ lives through smart design solutions"} />
+      <FeatureWork title={"We are a team of design and research experts with over ten years of experience in improving businesses and peoples lives through smart design solutions"} />
       <Clients />
       <Faq question={"which technology used for creating mobile applications"}
         answer={"React Native, Flutter, Ionic, JavaScript, Kotlin, Java, Swift"}
