@@ -261,13 +261,13 @@ const Technologies = () => {
 
             <section className="sm:gap-10 flex-row justify-around sm:justify-evenly flex-wrap">
               <Image className='sm:h-[55px] sm:w-[54px]'
-                src={"/assets/tech/shopify-icon-black1212.logowik.com.webp"}
+                src={"/assets/tech/shopify_black_logo_icon_147085.png"}
                 width={100}
                 height={100}
                 alt="pic"
               />
               <Image className='sm:h-[55px] sm:w-[54px]'
-                src={"/assets/tech/wordpress-black1876.jpg"}
+                src={"/assets/tech/59137.png"}
                 width={100}
                 height={100}
                 alt="pic"
@@ -286,7 +286,7 @@ const Technologies = () => {
               />
 
               <Image className='sm:h-[55px] sm:w-[54px]'
-                src={"/assets/tech/wordpress-black1876.jpg"}
+                src={"/assets/tech/59137.png"}
                 width={100}
                 height={100}
                 alt="pic"
