@@ -2,6 +2,7 @@
 import React, { Fragment } from 'react';
 import { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 const TestingNav = () => {
 	const [showNav, setShowNav] = useState(false);
 	return (
@@ -20,7 +21,7 @@ const TestingNav = () => {
 					<h1 className='text-2xl sm:mt-2 font-extrabold sm:text-center'>Services</h1>
 
 					<div>
-						<h2 className='sm:text-center mob-nav-item sm:relative sm:left-2 text-xl'>Digital Marketing Services</h2>
+						<Link href="/services/digital"><h2 className='sm:text-center mob-nav-item sm:relative sm:left-2 text-xl'>Digital Marketing Services</h2></Link>
 						<div>
 							<h3 className='sm:text-center'>Search Engine Optimization</h3>
 							<h3 className='sm:text-center'>E-Commerce SEO</h3>
