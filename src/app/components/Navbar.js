@@ -46,7 +46,7 @@ const Navbar = () => {
                 </li></Link>
               </ul>
               <button className="bg-[#00A256] ml-20 justify-end px-5 py-3 rounded-[40px] text-white text-[17px] font-semibold">
-                Let’s Talk <span><Image src={"/assets/send.svg"} className="inline" width={21} height={20} alt="pic" /></span>
+                Let’s Talk <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
               </button>
             </div>
           </nav>

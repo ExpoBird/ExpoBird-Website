@@ -18,7 +18,7 @@ const Hero = () => {
                       </div>
                       <p className="sm:text-[20px] mb-5 sm:leading-[25px] md:text-[20px] max-w-[720px] mx-auto text-[25px] leading-none text-white mt-10 sm:mt-5">We turn your ideas into numbers. ExpoShopify  helps you grow your eCommerce store with a proven record of successful case studies.</p>
                       <button className="bg-[#00A256] right-[70px] justify-end px-6 py-4 rounded-[40px] text-white text-[17px] font-semibold">
-              Let’s Talk <span><Image src={"/assets/send.svg"} className="inline" width={21} height={20} alt="pic" /></span>
+              Let’s Talk <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
             </button>
                          
               

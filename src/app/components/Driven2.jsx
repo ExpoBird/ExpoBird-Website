@@ -37,7 +37,7 @@ const Driven2 = ({ para }) => {
           </div>
           <div>
             <Image 
-              src={"/assets/hero-image.png"}
+              src={"/assets/hero-image-expo.png"}
               width={800}
               height={750}
               alt=""
