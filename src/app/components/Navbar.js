@@ -64,16 +64,16 @@ const Navbar = () => {
             <Link href="/services/digital"><li className=" text-[26px] font-semibold leading-none  underline mb-2 px-4" onClick={closeMobileMenu}>
               Digital Marketing Services
             </li></Link>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            <Link href="/services/digital/seo"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Search Engine Optimization
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
-              E-Commerce SEO
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/digital/content-writing-services"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Content Writing Services
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/digital/sem"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            Search Engine Marketing (SEM)
+            </li></Link>
+            {/* <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Online Reputation Management (ORM)
             </li>
             <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
@@ -81,173 +81,173 @@ const Navbar = () => {
             </li>
             <li className="text-[16px]  mb-4 px-4" onClick={closeMobileMenu}>
               Link Building Services
-            </li>
+            </li> */}
           </ul>
 
           <ul className="py-6 shadow-md shadow-[#00A256] ">
             <Link href="/services/social"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
               Social Media Marketing Services
             </li></Link>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            <Link href="/services/social/facebook-marketing-services"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               FaceBook Marketing Services
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/social/instagram-marketing-services"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Instagram Marketing Services
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/social/social-media-management-services"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Social Media Management Services
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/social/social-media-advertising-services"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Social Media Advertising Services
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/social/youtube-video"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               YouTube Video Production & Optimization
-            </li>
+            </li></Link>
           </ul>
 
           <ul className="py-6 shadow-md shadow-[#00A256] ">
             <Link href="/services/web"><li className="text-[26px] leading-none font-semibold  underline mb-2 px-4" onClick={closeMobileMenu}>
               Web Design & Development Services
             </li></Link>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            {/* <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Responsive Website Design Services
             </li>
             <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Rapid Web Design
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li> */}
+            <Link href="/services/web/landing-pages-development"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Landing Pages Development
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/web/website-maintenance"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Website Maintenance
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/web/custom-web-development"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Custom Web Development
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/web/wordpress-website-development"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               WordPress Website Development
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/web/web-design-development"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Web Design & Development
-            </li>
+            </li></Link>
           </ul>
           <ul className="py-6 shadow-md shadow-[#00A256] ">
             <Link href="/services/commerce"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
               E-commerce Development Services
             </li></Link>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            <Link href="/services/commerce/bigcommerce-development"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               BigCommerce Development
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/commerce/shopify-development"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Shopify Development
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/commerce/woocommerce-development"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               WooCommerce Development
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/commerce/magento-development"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Magento Development
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/commerce/custom-ecommerce-development"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Custom eCommerce Development
-            </li>
+            </li></Link>
           </ul>
           <ul className="py-6 shadow-md shadow-[#00A256]">
             <Link href="/services/video"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
               Video Production Services
             </li></Link>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            {/* <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               TV commercial
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
-              Product unboxing
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li> */}
+            <Link href="/services/video/digital-video-commercials"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Digital Video Commercials
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/video/product-unboxing"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+              Product unboxing
+            </li></Link>
+            <Link href="/services/video/coporate-video-production"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Coporate Video production
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            {/* <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Video Production
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li> */}
+            <Link href="/services/video/animation"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Animation Services
-            </li>
+            </li></Link>
           </ul>
 
           <ul className="py-6 shadow-md shadow-[#00A256]">
             <Link href="/services/animation"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
               Animation Services
             </li></Link>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            <Link href="/services/animation/whiteboard-animation"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Whiteboard Animation
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/animation/animation-explainer-video"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Animation Explainer Video
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/animation/3d-animation"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               3D Animation
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/animation/2d-animation"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               2D Animation
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/animation/animation"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Animation
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/animation/coporate-video"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Coporate Video
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/animation/tvc"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               TVC
-            </li>
+            </li></Link>
           </ul>
 
           <ul className="py-6 shadow-md shadow-[#00A256]">
             <Link href="/services/ui"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
               UI/UX Design Services
             </li></Link>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            <Link href="/services/ui/high-fidelity-prototype"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               High-fidelity Prototype
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
-              Wirefrrames
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/ui/wireframes"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+              Wireframes
+            </li></Link>
+            <Link href="/services/ui/ui"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Mobile and Web User Interface Design
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/ui/cross-platform-compatibility"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Cross-Platform Compatibility
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            {/* <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Technical Design
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li> */}
+            <Link href="/services/ui/ux"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               UX Design
-            </li>
+            </li></Link>
           </ul>
 
           <ul className="py-6 shadow-md shadow-[#00A256]">
             <Link href="/services/appdev"><li className="text-[26px] leading-none font-semibold underline  mb-4 px-4" onClick={closeMobileMenu}>
               Application Development Services
             </li></Link>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            <Link href="/services/appdev/native-mobile-app-development"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Native Mobile App Development
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
-              Hybird Mobile App Development
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/appdev/hybrid-mobile-app-development"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+              Hybrid Mobile App Development
+            </li></Link>
+            <Link href="/services/appdev/web-app-development"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Web App Development
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/appdev/cross-platform-app-development"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Cross-Platform App Development
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/appdev/android-app-development"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Android App Development
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
+            </li></Link>
+            <Link href="/services/appdev/ios-app-development"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               IOS App Development
-            </li>
+            </li></Link>
           </ul>
         </div>
       </div>

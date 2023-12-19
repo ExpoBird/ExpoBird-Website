@@ -18,7 +18,7 @@ const DigitalHero = ({ title, text1, text2, text3 }) => (
     <Button  buttonText={"Let's Talk"} />
     <div className=" sm:mt-[40px] mx-auto mt-10">
       <div className="gap-20 sm:grid sm:grid-cols-3 sm:ml-5 sm:mr-5 sm:flex-wrap  md:grid md:grid-cols-2 sm:gap-10 flex items-center justify-center">
-        <Image src="/assets/award01.svg" height={25} width={150} alt="pic" />
+        <Image src={"/assets/award01.svg"} height={25} width={150} alt="pic" />
         <Image src={"/assets/award02.svg"} height={25} width={89} alt="pic" />
         <Image src={"/assets/award03.svg"} height={35} width={119} alt="pic" />
         <Image src={"/assets/award04.svg"} height={30} width={125} alt="pic" />
