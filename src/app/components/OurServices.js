@@ -4,7 +4,7 @@ import Image from 'next/image';
 const OurServices = () => {
   return (
     <Fragment>
-          <div className="font-montserrat sm:mt-[80px] sm:mb-1 pt-28 lg:pt-15">
+          <div className="font-montserrat sm:mt-[110px] sm:mb-1 pt-28 lg:pt-5">
         <div className="sm:border-none border-t border-[#BDBDBD]"></div>
         <div className="sm:px-10 px-48">
           <div className="grid grid-cols-3 md:grid md:grid-cols-1 lg:grid lg:grid-cols-1 sm:block">
