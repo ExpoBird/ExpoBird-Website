@@ -4,13 +4,13 @@ import Image from 'next/image'
 const Driven = ({ para }) => {
   return (
    <Fragment>
-     <div className="font-montserrat sm:-ml-[120px] sm:rounded-b-[10px] md:rounded-b-[10px] md:-ml-[120px] bg-[#151515] px-48 mb-24">
+     <div className="font-montserrat sm:-ml-[120px] sm:rounded-b-[10px] md:rounded-b-[10px] md:-ml-[120px] bg-[#151515] lg:px-10 px-48 mb-24 lg:mb-10">
         <div className="flex items-center pt-20 sm:pt-5">
           <div>
-            <p className="text-[85px] leading-none sm:text-center md:ml-[80px] sm:text-[60px] mt-2 text-white sm:mt-6 md:text-center font-black max-w-[750px]">
+            <p className="text-[85px] lg:text-[85px] lg:font-black leading-none sm:text-center md:ml-[80px] sm:text-[60px] mt-2 text-white sm:mt-6 md:text-center font-black max-w-[750px]">
               Data-Driven Revenue Marketing
             </p>
-            <p className="sm:text-[20px] sm:pr-[24px] md:pl-[20px] md:text-center sm:text-center  sm:flex-wrap text-white text-2xl leading-none max-w-[820px] my-12">
+            <p className="sm:text-[20px] sm:pr-[24px] md:pl-[20px] md:text-center sm:text-center  sm:flex-wrap lg:text-[20px] text-white text-2xl leading-none max-w-[820px] my-12">
               {para}
             </p>
             <form>

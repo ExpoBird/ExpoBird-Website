@@ -4,10 +4,10 @@ import Image from 'next/image';
 const OurServices = () => {
   return (
     <Fragment>
-          <div className="font-montserrat sm:mt-[80px] sm:mb-1 pt-28">
+          <div className="font-montserrat sm:mt-[80px] sm:mb-1 pt-28 lg:pt-15">
         <div className="sm:border-none border-t border-[#BDBDBD]"></div>
         <div className="sm:px-10 px-48">
-          <div className="grid grid-cols-3 md:grid md:grid-cols-1 sm:block">
+          <div className="grid grid-cols-3 md:grid md:grid-cols-1 lg:grid lg:grid-cols-1 sm:block">
             <div className="sm:border-none xl:ml-[-110px] lg:ml-[-100px] font-montserrat border-r border-[#BDBDBD]">
               <p className="text-black mr-10 sm:static sm:text-[40px] leading-none text-[85px] font-black xl:text-[50px] xl:ml-[6px] lg:text-[50px] lg:ml-[6px] mt-32 sm:text-center">
                 Our Services

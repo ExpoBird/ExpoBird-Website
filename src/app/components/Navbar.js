@@ -16,12 +16,12 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="sm:hidden md:hidden px-24 font-montserrat flex items-center justify-center bg-[#151515] relative">
+      <div className="sm:hidden lg: px-24 font-montserrat flex items-center justify-center bg-[#151515] relative">
         <div className="w-full">
           <nav className="py-6 w-full flex items-center justify-between">
             <Image src={"/assets/logo.svg"} width={150} height={50} alt="pic" />
             <div className="flex items-center">
-              <ul className="flex items-center xl:space-x-4 lg:space-x-4 list-none space-x-10 cursor-pointer">
+              <ul className="flex items-center xl:space-x-4 lg:space-x- list-none space-x-10 cursor-pointer">
                 <Link href="/"><li className="text-white mr-4 text-[16px] font-semibold">
                   Home
                 </li></Link>
@@ -34,16 +34,6 @@ const Navbar = () => {
                 <li className="text-white mr-4 text-[16px] font-semibold" onClick={toggleMobileMenu}>
                   Services
                 </li>
-                <Link href="/portfolio"><li
-                  className="text-white mr-10 text-[16px] font-semibold"
-                >
-                  Portfolio
-                </li></Link>
-                <Link href="/projects"><li
-                  className="text-white mr-10 text-[16px] font-semibold"
-                >
-                  Projects
-                </li></Link>
               </ul>
               <button className="bg-[#00A256] ml-20 justify-end px-5 py-3 rounded-[40px] text-white text-[17px] font-semibold">
                 Let’s Talk <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
