@@ -21,7 +21,7 @@ const Navbar = () => {
           <nav className="py-6 w-full flex items-center justify-between">
             <Image src={"/assets/logo.svg"} width={150} height={50} alt="pic" />
             <div className="flex items-center">
-              <ul className="flex items-center list-none space-x-10 cursor-pointer">
+              <ul className="flex items-center xl:space-x-4 lg:space-x-4 list-none space-x-10 cursor-pointer">
                 <Link href="/"><li className="text-white mr-4 text-[16px] font-semibold">
                   Home
                 </li></Link>
