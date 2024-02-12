@@ -8,17 +8,17 @@ const TestingNav = () => {
 	return (
 		<Fragment>
 			{
-				<Image className='sm:relative translate-x-0.5 sm:right-6 sm:top-5 md:hidden lg:hidden xl:hidden 2xl:hidden cursor-pointer sm:float-right' src={showNav ? "/assets/01fe6447fbd35f56bf5b36ce07e7fabb.jpg" : "/assets/269dd16fa1f5ff51accd09e7e1602267.png"} height={35} width={35} alt='pic1' onClick={() => setShowNav(!showNav)} />
+				<Image className='sm:relative translate-x-0.5 sm:right-6 sm:top-5  lg:hidden md:right-6 md:top-5  xl:hidden 2xl:hidden cursor-pointer md:float-right sm:float-right' src={showNav ? "/assets/01fe6447fbd35f56bf5b36ce07e7fabb.jpg" : "/assets/269dd16fa1f5ff51accd09e7e1602267.png"} height={35} width={35} alt='pic1' onClick={() => setShowNav(!showNav)} />
 			}
-			<Image className='md:hidden lg:hidden xl:hidden 2xl:hidden relative top-5 left-5' src="/assets/download (1).png" height={70} width={70} alt='logo' />
+			<Image className=' lg:hidden xl:hidden 2xl:hidden relative top-5 left-5' src="/assets/download (1).png" height={70} width={70} alt='logo' />
 			{
-				<aside className={showNav ? "sm:bg-[#151515] font-montserrat sm:h-[790px] sm:mt-[40px] sm:absolute sm:w-full cursor-pointer sm:text-white accordion-nav md:hidden lg:hidden xl:hidden 2xl:hidden" : "hidden sm:bg-[#151515] cursor-pointer sm:absolute font-montserrat sm:text-white sm:w-full sm:h-[740px] sm:mt-[20px] accordion-nav md:hidden lg:hidden xl:hidden 2xl:hidden"}>
-					<h3 className='sm:text-center sm:mt-5 font-extrabold text-2xl'>Home</h3>
-					<h3 className='sm:text-center font-extrabold sm:mt-2 text-2xl'>About Us</h3>
-					<h3 className='sm:text-center font-extrabold sm:mt-2 text-2xl'>Contact Us</h3>
-					<h3 className='sm:text-center font-extrabold sm:mt-2 text-2xl'>Portfolio</h3>
-					<h3 className='sm:text-center font-extrabold sm:mt-2 text-2xl'>Projects</h3>
-					<h1 className='text-2xl sm:mt-2 font-extrabold sm:text-center'>Services</h1>
+				<aside className={showNav ? "sm:bg-[#151515] md:bg-[#151515] font-montserrat sm:h-[790px] sm:mt-[40px] sm:absolute sm:w-full md:absolute md:w-full cursor-pointer sm:text-white md:text-white accordion-nav lg:hidden xl:hidden 2xl:hidden" : "hidden sm:bg-[#151515] md:bg-[#151515] md:absolute md:w-full md:mt-[20px] cursor-pointer sm:absolute font-montserrat sm:text-white sm:w-full sm:h-[740px] md:h-[1000px] sm:mt-[20px] accordion-nav  lg:hidden xl:hidden 2xl:hidden"}>
+					<h3 className='sm:text-center md:text-center sm:mt-5 font-extrabold text-2xl'>Home</h3>
+					<h3 className='sm:text-center md:text-center font-extrabold sm:mt-2 text-2xl'>About Us</h3>
+					<h3 className='sm:text-center md:text-center font-extrabold sm:mt-2 text-2xl'>Contact Us</h3>
+					{/* <h3 className='sm:text-center font-extrabold sm:mt-2 text-2xl'>Portfolio</h3> */}
+					{/* <h3 className='sm:text-center font-extrabold sm:mt-2 text-2xl'>Projects</h3> */}
+					<h1 className='text-2xl md:text-center sm:mt-2 font-extrabold sm:text-center'>Services</h1>
 
 					<div>
 						<Link href="/services/digital"><h2 className='sm:text-center mob-nav-item sm:relative sm:left-2 text-xl'>Digital Marketing Services</h2></Link>
