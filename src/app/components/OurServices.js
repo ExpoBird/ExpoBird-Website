@@ -7,9 +7,9 @@ const OurServices = () => {
           <div className="font-montserrat sm:mt-[80px] sm:mb-1 pt-28">
         <div className="sm:border-none border-t border-[#BDBDBD]"></div>
         <div className="sm:px-10 px-48">
-          <div className="grid grid-cols-3 sm:block">
-            <div className="sm:border-none font-montserrat border-r border-[#BDBDBD]">
-              <p className="text-black mr-10 sm:static sm:text-[40px] leading-none text-[85px] font-black mt-32 sm:text-center">
+          <div className="grid grid-cols-3 md:grid md:grid-cols-1 sm:block">
+            <div className="sm:border-none xl:ml-[-110px] font-montserrat border-r border-[#BDBDBD]">
+              <p className="text-black mr-10 sm:static sm:text-[40px] leading-none text-[85px] font-black xl:text-[50px] xl:ml-[6px] mt-32 sm:text-center">
                 Our Services
               </p>
               <p className="text-2xl sm:text-center sm:text-[20px] text-black my-12">

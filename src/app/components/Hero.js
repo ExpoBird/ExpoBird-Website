@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Hero = () => {
   return (
     <>
-      <div className="sm:pt-[60px] sm:relative sm:z-10 px-24 flex items-center font-montserrat justify-center relative">
+      <div className="sm:pt-[60px] md:pt-[60px] sm:relative sm:z-10 px-24 flex items-center font-montserrat justify-center relative">
           <div className="w-full">
               <section className="py-24 sm:py-4 w-full flex items-center justify-center">
                   <div className="text-center">

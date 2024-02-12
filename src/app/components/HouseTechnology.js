@@ -11,10 +11,10 @@ const HouseTechnology = () => {
 
   return (
     <Fragment>
-      <div className='font-montserrat'>
+      <div className='font-montserrat md:hidden'>
         <div className="bg-[#151515]  sm:grid mt-20 sm:px-2 sm:grid-cols-1 grid grid-cols-2 items-center gap-x-24 px-48">
           <div>
-            <p className="sm:text-[40px] sm:text-center sm:mt-[40px] mt-[60px] sm:ml-[15px] md:text-[45px] text-[85px] text-white font-bold leading-none">
+            <p className="sm:text-[40px] sm:text-center sm:mt-[40px] mt-[60px] sm:ml-[15px] md:text-[50px] text-[85px] text-white font-bold leading-none">
               In House Technology
             </p>
             <p className="sm:text-[20px] sm:text-center text-2xl sm:ml-[15px] text-white mt-11">

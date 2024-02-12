@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="sm:hidden px-24 font-montserrat flex items-center justify-center bg-[#151515] relative">
+      <div className="sm:hidden md:hidden px-24 font-montserrat flex items-center justify-center bg-[#151515] relative">
         <div className="w-full">
           <nav className="py-6 w-full flex items-center justify-between">
             <Image src={"/assets/logo.svg"} width={150} height={50} alt="pic" />

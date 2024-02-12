@@ -16,7 +16,7 @@ const NewNav = () => {
              <Image src={"/assets/hamburger.png"} height={10} width={20} alt='pic' onClick={() => setShowNav(true)} />
             }    
             {
-                showNav && <div className='md:hidden sm:absolute sm:z-10 font-montserrat xl:hidden lg:hidden 2xl:hidden text-white bg-[#151515] sm:h-screen sm:w-screen relative top-16 flex-col list-none left-0 cursor-pointer'>
+                showNav && <div className='sm:absolute sm:z-10 font-montserrat text-white bg-[#151515] sm:h-screen sm:w-screen relative top-16 flex-col list-none left-0 cursor-pointer'>
                     <Image src={"/assets/close.png"} height={20} width={10} alt='pic' onClick={() => setShowNav(false)} />
                     <Image className='float-right relative right-6' src="/assets/download (1).png" height={80} width={90} alt='pic' />
                     <li className='relative mt-10 left-3 text-3xl font-semibold mb-2 text-center'><Link href="#">home</Link></li>
