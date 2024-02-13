@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       <div className="sm:pt-[60px] md:pt-[10px] sm:relative sm:z-10 px-24 flex items-center font-montserrat justify-center relative">
           <div className="w-full">
-              <section className="py-24 sm:py-4 w-full flex items-center justify-center">
+              <section className="py-24 sm:py-4 md:py-30 w-full flex items-center justify-center">
                   <div className="text-center">
                       <h6 className="sm:text-[45px] md:text-[70px] inline text-[80px] text-white font-black sm:leading-none">NEXT GENERATI<span className="text-[#00A256]">O</span>N</h6>
                       <div className="mt-[24px] md:text-[30px] rotating-words text-center relative">

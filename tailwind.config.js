@@ -17,9 +17,9 @@ module.exports = {
     screens: {
       'sm': {'min': '100px', 'max': '768px'},
 
-      'md': {'min': '768px', 'max': '1023px'},
+      'md': {'min': '768px', 'max': '1024px'},
 
-      'lg': {'min': '1024px', 'max': '1279px'},
+      'lg': {'min': '1024px', 'max': '1280px'},
 
       'xl': {'min': '1280px', 'max': '1535px'},
 
