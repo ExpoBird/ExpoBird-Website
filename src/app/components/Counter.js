@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Counter = () => {
   return (
     <>
-       <div className="font-montserrat sm:p-12 p-24 bg-[#151515]">
+       <div className="font-montserrat sm:mt-20 sm:p-12 p-24 bg-[#151515]">
             <div className="grid grid-rows-5 grid-cols-2 gap-3">
               <div className="max-w-[350px] row-end-3 row-span-2 ml-auto mr-36">
                 <Image src={"/assets/cta-image01.png"} width={420} height={600} alt="pic" />
@@ -46,7 +46,7 @@ const Counter = () => {
               </div>
               <div className=" flex sm:border md:border justify-center flex-col items-center border-r border-[#BDBDBD] pb-10">
                 <p className="text-white mt-[40px] mb-[0px] mr-[20px]  font-semibold  text-[50px] leading-none"><span className="text-[#00A256]">+</span>15</p>
-                <p className="text-[#00A256] sm:text-center text-[24px] sm:text-[20px] mb-0">Years of Experience</p>
+                <p className="text-[#00A256] sm:text-center lg:text-center text-[24px] sm:text-[20px] mb-0">Years of Experience</p>
               </div>
               <div className=" flex justify-center sm:border md:border flex-col items-center border-r border-[#BDBDBD] pb-10">
                 <p className="text-white mt-[40px] mb-[0px] mr-[20px] font-semibold text-[50px] leading-none"><span className="text-[#00A256]">+</span>100</p>

@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="px-24 sm:px-8">
             <div className="sm:grid sm:grid-cols-1 grid grid-cols-3">
               <div className="sm:border-none border-r-2 sm:py-10 border-[#FFFFFF] py-24 ">
-                <p className="sm:text-center sm:relative sm:text-[40px] text-[80px] text-white font-black leading-none">Made On Earth With Heart</p>
+                <p className="sm:text-center sm:relative sm:text-[40px] text-[80px] text-white font-black leading-none lg:text-[50px]">Made On Earth With Heart</p>
                 <p className="text-white sm:text-[20px] sm:leading-none sm:text-center sm:py-4 text-[24px] py-20">New York Division One World Trade Center New York, NY 10007</p>
                 <div className="flex items-center">
                   <Link href="/">
