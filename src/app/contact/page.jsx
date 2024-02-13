@@ -1,48 +1,56 @@
-"use client";
-
-import Script from "next/script";
-import Navbar from "../components/Navbar";
-import TestingNav from "../components/TestingNav";
-import DigitalHero from "../components/DigitalHero";
-import Contact from "../components/Contact";
+import React from 'react'
+import Navbar from '../components/Navbar'
+import TestingNav from '../components/TestingNav'
 
 const page = () => {
   return (
     <>
-      <Script src="/scripts/script-3.js" strategy="lazyOnload"></Script>
-      <div className="bg-hero-image w-full overflow-hidden">
-        <Navbar />
-        <TestingNav />
-        <DigitalHero
-          title={
-            "ExpoBird is leading mobile app development company  Dubai, helping business transform their ideas into reality. We build mobile app \
-         development solutions to empower startups, SMBs, enterprises and brands."
-          }
-          text1={"We Are"}
-          text2={"Social Media Marketing"}
-          text3={"Company"}
+
+<Navbar />
+<TestingNav />
+<div class="container mx-auto my-20 w-1/3 bg-white">
+  <div class="p-5 space-y-5 shadow-xl">
+    <h4 class="text-center text-3xl">Contact Us</h4>
+
+    <form action="mailto:shirazhussain2015@gmail.com">
+      <div class="grid grid-cols-2 gap-5">
+        <input
+          type="text"
+          class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500"
+          placeholder="First Name"
         />
+        <input
+          type="text"
+          class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-[#00A256"
+          placeholder="Last Name"
+        />
+        <input
+          type="email"
+          class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-[#00A256] col-span-2"
+          placeholder="Email"
+        />
+        <input
+          type="tel"
+          class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-[#00A256] col-span-2"
+          placeholder="Phone"
+        />
+        <textarea
+          cols="10"
+          rows="5"
+          class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-[#00A256] col-span-2"
+          placeholder="Write your message..."
+        ></textarea>
       </div>
       <button
-        className="btn"
-        onClick={() => document.getElementById("my_modal_3").showModal()}
-      >
-        open modal
-      </button>
-      <dialog id="my_modal_3" className="modal modal-bottom sm:modal-middle w-[500px] p-3">
-        <div className="modal-box">
-          <form method="dialog">
-            {/* if there is a button in form, it will close the modal */}
-            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-              ✕
-            </button>
-          </form>
-          <Contact />
-        </div>
-      </dialog>
-      <Contact />
+        type="submit"
+        value="Send Message"
+        class="focus:outline-none mt-5 bg-[#00A256] px-4 py-2 text-white font-bold w-full"
+      >Submit</button>
+    </form>
+  </div>
+</div>
     </>
-  );
-};
+  )
+}
 
-export default page;
+export default page
