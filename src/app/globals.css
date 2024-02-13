@@ -1972,7 +1972,7 @@ body {
 
 .tabs input[name=tab-control]:nth-of-type(1):checked~ul>li:nth-child(1)>label {
   cursor: default;
-  color: #A045F2 !important;
+  color: #00A256 !important;
 }
 
 .tabs input[name=tab-control]:nth-of-type(1):checked~.slider {
@@ -1986,7 +1986,7 @@ body {
 
 .tabs input[name=tab-control]:nth-of-type(2):checked~ul>li:nth-child(2)>label {
   cursor: default;
-  color: #A045F2 !important;
+  color: #00A256 !important;
 }
 
 .tabs input[name=tab-control]:nth-of-type(2):checked~.slider {
@@ -2000,7 +2000,7 @@ body {
 
 .tabs input[name=tab-control]:nth-of-type(3):checked~ul>li:nth-child(3)>label {
   cursor: default;
-  color: #A045F2 !important;
+  color: #00A256 !important;
 }
 
 .tabs input[name=tab-control]:nth-of-type(3):checked~.slider {
@@ -2015,7 +2015,7 @@ body {
 
 .tabs input[name=tab-control]:nth-of-type(4):checked~ul>li:nth-child(4)>label {
   cursor: default;
-  color: #A045F2 !important;
+  color: #00A256 !important;
 }
 
 .tabs input[name=tab-control]:nth-of-type(4):checked~.slider {
@@ -2029,7 +2029,7 @@ body {
 
 .tabs input[name=tab-control]:nth-of-type(5):checked~ul>li:nth-child(5)>label {
   cursor: default;
-  color: #A045F2 !important;
+  color: #00A256 !important;
 }
 
 .tabs input[name=tab-control]:nth-of-type(5):checked~.slider {
@@ -2043,7 +2043,7 @@ body {
 
 .tabs input[name=tab-control]:nth-of-type(6):checked~ul>li:nth-child(6)>label {
   cursor: default;
-  color: #A045F2 !important;
+  color: #00A256 !important;
 }
 
 .tabs input[name=tab-control]:nth-of-type(6):checked~.slider {

@@ -6,18 +6,18 @@ const OurServices = () => {
     <Fragment>
           <div className="font-montserrat sm:mt-[110px] sm:mb-1 pt-28 lg:pt-0">
         <div className="sm:border-none lg:border-none md:border-none border-t border-[#BDBDBD]"></div>
-        <div className="sm:px-10 md:px-30 md:mt-[-170px] px-48">
+        <div className="sm:px-10 md:px-30 md:mt-[-100px] px-48">
           <div className="grid grid-cols-3 md:grid md:grid-cols-1 lg:grid lg:grid-cols-1 sm:block">
-            <div className="sm:border-none lg:border-none xl:ml-[-110px] lg:ml-[-100px] font-montserrat border-r border-[#BDBDBD]">
-              <p className="text-black mr-10 sm:static sm:text-[40px] leading-none text-[85px] font-black xl:text-[50px] md:ml-[-60px] md:text-[50px] xl:ml-[6px] lg:text-[50px] lg:ml-[30px] mt-32 sm:text-center">
+            <div className="sm:border-none md:border-none lg:border-none xl:ml-[-110px] lg:ml-[-100px] font-montserrat border-r border-[#BDBDBD]">
+              <p className="text-black mr-10 sm:static sm:text-[40px] leading-none text-[85px] font-black xl:text-[50px] md:text-[60px] xl:ml-[6px] lg:text-[50px] lg:ml-[30px] mt-32 md:text-center sm:text-center">
                 Our Services
               </p>
-              <p className="text-2xl md:ml-[-60px] lg:ml-[30px] sm:text-center sm:text-[20px] text-black md:my-6 my-12">
+              <p className="text-2xl md:text-center lg:ml-[30px] sm:text-center sm:text-[20px] text-black md:my-6 my-12">
                 Choose Expobird as your digital marketing agency and propel your
                 business to new heights with our award-winning digital marketing
                 services and proprietary technology platform.
               </p>
-              <button className="text-white sm:mt-2 sm:mb-1 sm:ml-[120px] bg-[#00A256] text-[17px] rounded-[70px] lg:ml-[30px] py-4 px-6 font-semibold">
+              <button className="text-white sm:mt-2 sm:mb-1 sm:ml-[240px] md:ml-[150px] bg-[#00A256] text-[17px] rounded-[70px] lg:ml-[30px] py-4 px-6 font-semibold">
                   See All{" "}
                   <span>
                     <Image
@@ -30,8 +30,8 @@ const OurServices = () => {
                   </span>
                 </button>
             </div>
-            <div className="sm:border-none border-r border-[#BDBDBD] sm:grid sm:grid-cols-2">
-              <div className="sm:border-none sm:px-0 px-6 py-20 border-b border-[#BDBDBD]">
+            <div className="sm:border-none md:border-none border-r border-[#BDBDBD] sm:grid sm:grid-cols-2 md:grid md:grid-cols-2">
+              <div className="sm:border-none md:border-none sm:px-0 px-6 py-20 border-b border-[#BDBDBD]">
                 <div className="p-9 sm:p-4">
                   <p className="text-black md:ml-[-30px] sm:text-center text-3xl font-bold">
                     Digital Marketing
@@ -58,7 +58,7 @@ const OurServices = () => {
                   />
                 </div>
               </div>
-              <div className="sm:px-0 px-6 py-20 sm:border-none border-b border-[#BDBDBD]">
+              <div className="sm:px-0 px-6 py-20 sm:border-none md:border-none border-b border-[#BDBDBD]">
                 <div className="p-9 sm:p-4">
                   <p className="text-black md:ml-[-30px] sm:text-center text-3xl font-bold">
                    SEO
@@ -66,7 +66,7 @@ const OurServices = () => {
                   <p className="sm:text-[20px] md:ml-[-30px] sm:text-center text-black text-2xl my-5">
                     Choose Expobird as your digital marketing agency
                   </p>
-                  <button className="sm:border-none p-6 border border-[#ADADAD] rounded-[16px]">
+                  <button className="sm:border-none md:border-none p-6 border border-[#ADADAD] rounded-[16px]">
                     <span>
                       <Image
                         src={"/assets/arrow-black.png"}
@@ -86,7 +86,7 @@ const OurServices = () => {
                   />
                 </div>
               </div>
-              <div className="px-6 py-20 sm:px-0 sm:border-none border-b border-[#BDBDBD]">
+              <div className="px-6 py-20 sm:px-0 sm:border-none md:border-none border-b border-[#BDBDBD]">
                 <div className="p-9 sm:p-4">
                   <p className="text-black md:ml-[-30px] sm:text-center text-3xl font-bold">
                     Designs & Animation
@@ -114,7 +114,7 @@ const OurServices = () => {
                   />
                 </div>
               </div>
-              <div className="px-6 py-20 sm:px-0 border-b border-[#BDBDBD]">
+              <div className="px-6 py-20 sm:px-0 border-b sm:border-none md:border-none border-[#BDBDBD]">
                 <div className="p-9 sm:p-4">
                   <p className="text-black md:ml-[-30px] sm:text-center text-3xl font-bold">
                     Mobile Development
@@ -143,8 +143,8 @@ const OurServices = () => {
                 </div>
               </div>
             </div>
-            <div className="sm:grid sm:grid-cols-2">
-              <div className="sm:px-0  px-6 py-20 border-b border-[#BDBDBD]">
+            <div className="sm:grid sm:grid-cols-2 md:grid md:grid-cols-2">
+              <div className="sm:px-0  px-6 py-20 border-b sm:border-none md:border-none border-[#BDBDBD]">
                 <div className="p-9 sm:p-4">
                   <p className="text-black sm:text-center text-3xl font-bold">
                     Web Development
@@ -171,7 +171,7 @@ const OurServices = () => {
                   />
                 </div>
               </div>
-              <div className="sm:px-0 sm:border-none px-6 py-20 border-b border-[#BDBDBD]">
+              <div className="sm:px-0 sm:border-none md:border-none px-6 py-20 border-b border-[#BDBDBD]">
                 <div className="p-9 sm:p-4">
                   <p className="text-black sm:text-center text-3xl font-bold">
                     Social Media
@@ -199,7 +199,7 @@ const OurServices = () => {
                   />
                 </div>
               </div>
-              <div className="sm:px-0 sm:border-none px-6 py-20 border-b border-[#BDBDBD]">
+              <div className="sm:px-0 sm:border-none md:border-none px-6 py-20 border-b border-[#BDBDBD]">
                 <div className="p-9 sm:p-4">
                   <p className="text-black sm:text-center text-3xl font-bold">
                     Amazon Services

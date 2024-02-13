@@ -33,7 +33,7 @@ const Technologies = () => {
               <label
                 htmlFor="tab1"
                 role="button"
-                className="text-[#252424] sm:font-[12px] hover:text-[#A045F2] transition ease-in-out select-none cursor-pointer block truncate text-medium sm:text-[20px] text-[17px]"
+                className="text-[#252424] sm:font-[12px] hover:text-[#00A256] transition ease-in-out select-none cursor-pointer block truncate text-medium sm:text-[20px] text-[17px]"
               >
                 Mobile
               </label>
@@ -42,7 +42,7 @@ const Technologies = () => {
               <label
                 htmlFor="tab2"
                 role="button"
-                className="text-[#252424] hover:text-[#A045F2] transition ease-in-out select-none cursor-pointer block truncate text-medium sm:text-[20px] text-[17px]"
+                className="text-[#252424] hover:text-[#00A256] transition ease-in-out select-none cursor-pointer block truncate text-medium sm:text-[20px] text-[17px]"
               >
                 FrontEnd
               </label>
@@ -51,7 +51,7 @@ const Technologies = () => {
               <label
                 htmlFor="tab3"
                 role="button"
-                className="text-[#252424] hover:text-[#A045F2] transition ease-in-out select-none cursor-pointer block truncate text-medium sm:text-[20px] text-[17px]"
+                className="text-[#252424] hover:text-[#00A256] transition ease-in-out select-none cursor-pointer block truncate text-medium sm:text-[20px] text-[17px]"
               >
                 DataBase
               </label>
@@ -60,7 +60,7 @@ const Technologies = () => {
               <label
                 htmlFor="tab4"
                 role="button"
-                className="text-[#252424] hover:text-[#A045F2] transition ease-in-out select-none cursor-pointer block truncate text-medium sm:text-[20px] text-[17px]"
+                className="text-[#252424] hover:text-[#00A256] transition ease-in-out select-none cursor-pointer block truncate text-medium sm:text-[20px] text-[17px]"
               >
                 Backend
               </label>
@@ -70,7 +70,7 @@ const Technologies = () => {
               <label
                 htmlFor="tab5"
                 role="button"
-                className="text-[#252424] hover:text-[#A045F2] transition ease-in-out select-none cursor-pointer block truncate text-medium sm:text-[20px] text-[17px]"
+                className="text-[#252424] hover:text-[#00A256] transition ease-in-out select-none cursor-pointer block truncate text-medium sm:text-[20px] text-[17px]"
               >
                 CMS
               </label>
@@ -80,7 +80,7 @@ const Technologies = () => {
               <label
                 htmlFor="tab6"
                 role="button"
-                className="text-[#252424] hover:text-[#A045F2] transition ease-in-out select-none cursor-pointer block truncate text-medium sm:text-[20px] text-[17px]"
+                className="text-[#252424] hover:text-[#00A256] transition ease-in-out select-none cursor-pointer block truncate text-medium sm:text-[20px] text-[17px]"
               >
                 Devops
               </label>

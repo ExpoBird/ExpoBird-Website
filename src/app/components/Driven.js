@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Driven = ({ para }) => {
   return (
    <Fragment>
-     <div className="font-montserrat sm:-ml-[120px] sm:rounded-b-[10px] md:rounded-b-[10px] md:-ml-[120px] bg-[#151515] lg:px-10 px-48 mb-24 lg:mb-10">
+     <div className="font-montserrat sm:-ml-[50px] sm:rounded-b-[10px] md:rounded-b-[10px] md:-ml-[120px] bg-[#151515] lg:px-10 px-48 mb-24 lg:mb-10">
         <div className="flex items-center pt-20 sm:pt-5 lg:ml-[70px]">
           <div>
             <p className="text-[85px] lg:text-[85px] lg:font-black leading-none sm:text-center md:ml-[100px] sm:text-[60px] mt-2 text-white sm:mt-6 md:text-center font-black max-w-[750px]">
@@ -36,7 +36,7 @@ const Driven = ({ para }) => {
             </form>
           </div>
           <div>
-            <Image 
+            <Image  className='sm:hidden' 
               src={"/assets/hero-image-expo.png"}
               width={800}
               height={750}

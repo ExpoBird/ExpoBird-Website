@@ -6,7 +6,7 @@ const Faq = ({ question, answer, question2, answer2, question3, answer3, questio
       <div className="bg-[#151515] font-montserrat">
         <div className="xl:max-w-[1440px] mx-auto">
           <div className="sm:p-2 sm:leading-none p-24">
-            <h6 className="sm:ml-[10px] sm:text-center sm:pt-[40px] sm:text-[40px] md:text-[40px] md:text-center text-[85px] font-bold text-white sm:4 sm:mr-4 pb-10">Faq</h6>
+            <h6 className="sm:ml-[10px] sm:text-center sm:pt-[40px] sm:text-[50px] md:text-[60px] md:text-center text-[85px] font-bold text-white sm:4 sm:mr-4 pb-10">Faq</h6>
             <div className="accordion">
               <div className="border-b border-[#656565]">
                 <button id="accordion-button-1 relative" className="relative block text-left w-full text-[#656565] sm:py-0 text-xl	py-5 " aria-expanded="false"><span className="sm:text-[20px] md:text-[30px] accordion-title leading-none sm:p-[25px] text-[46px] font-semibold md:leading-none fill_text">{question}</span><span className="icon" aria-hidden="true"></span></button>
@@ -34,16 +34,16 @@ const Faq = ({ question, answer, question2, answer2, question3, answer3, questio
               </div>
             </div>
             <div className="sm:grid sm:grid-cols-1 md:grid md:grid-cols-1 grid grid-cols-2 gap-32 pt-44 sm:pt-20 px-24">
-              <div className="sm:w-[280px] relative parentBox">
+              <div className="sm:w-[280px] sm:ml-[100px] md :ml-[100px] relative parentBox">
                 <div className="card-faq" id="card01"></div>
                 <div className="card-faq" id="card02"></div>
                 <div className="card-faq" id="card03"></div>
               </div>
               <div>
-                <h6 className="sm:hidden sm:text-center md:text-[40px] lg:text-[60px] text-[85px] text-white font-black max-w-[600px] leading-none mb-10">Have An Idea? Lets Build And Scale It!</h6>
-                <p className="text-2xl sm:text-[20px] sm:text-center  leading-none text-white max-w-[300px]">{para}</p>
+                <h6 className="sm:hidden md:text-[40px] md:text-center lg:text-[60px] text-[85px] text-white font-black max-w-[600px] leading-none mb-10">Have An Idea? Lets Build And Scale It!</h6>
+                <p className="text-2xl sm:text-[20px] md:ml-[80px] sm:ml-[90px] sm:text-center  leading-none text-white max-w-[300px]">{para}</p>
                 <div className="text-right">
-                  <button className="sm:w-[100px] sm:relative sm:right-[75px] sm:bottom-[30px] sm:mt-20 md:mt-20 sm:h-[100px] sm:text-[20px] sm:items-center md:w-[100px] md:h-[100px] md:text-[20px] md:items-center bg-[#00A256] w-[178px] h-[178px] rounded-full text-white text-[36px] leading-none dark_btn" >Lets <br />
+                  <button className="sm:w-[100px] sm:relative md:right-[110px] sm:right-[150px] sm:bottom-[30px] sm:mt-20 md:mt-20 sm:h-[100px] sm:text-[20px] sm:items-center md:w-[100px] md:h-[100px] md:text-[20px] md:items-center bg-[#00A256] w-[178px] h-[178px] rounded-full text-white text-[36px] leading-none dark_btn" >Lets <br />
                     Talk</button>
                 </div>
               </div>
