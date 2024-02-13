@@ -41,9 +41,9 @@ const Faq = ({ question, answer, question2, answer2, question3, answer3, questio
               </div>
               <div>
                 <h6 className="sm:hidden md:text-[40px] md:text-center lg:text-[60px] text-[85px] text-white font-black max-w-[600px] leading-none mb-10">Have An Idea? Lets Build And Scale It!</h6>
-                <p className="text-2xl sm:text-[20px] md:ml-[80px] sm:ml-[90px] sm:text-center  leading-none text-white max-w-[300px]">{para}</p>
+                <p className="text-2xl sm:text-[20px] md:ml-[140px] sm:ml-[90px] sm:text-center  leading-none text-white max-w-[300px]">{para}</p>
                 <div className="text-right">
-                  <button className="sm:w-[100px] sm:relative md:right-[110px] sm:right-[150px] sm:bottom-[30px] sm:mt-20 md:mt-20 sm:h-[100px] sm:text-[20px] sm:items-center md:w-[100px] md:h-[100px] md:text-[20px] md:items-center bg-[#00A256] w-[178px] h-[178px] rounded-full text-white text-[36px] leading-none dark_btn" >Lets <br />
+                  <button className="sm:w-[100px] sm:relative md:right-[200px] sm:right-[150px] sm:bottom-[30px] sm:mt-20 md:mt-20 sm:h-[100px] sm:text-[20px] sm:items-center md:w-[100px] md:h-[100px] md:text-[20px] md:items-center bg-[#00A256] w-[178px] h-[178px] rounded-full text-white text-[36px] leading-none dark_btn" >Lets <br />
                     Talk</button>
                 </div>
               </div>

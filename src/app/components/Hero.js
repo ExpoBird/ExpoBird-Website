@@ -23,7 +23,7 @@ const Hero = () => {
                          
               
                       <div className=" sm:mt-[40px] md:mt-10 mx-auto mt-10">
-                        <div className="gap-20 sm:grid sm:grid-cols-3 lg:grid lg:grid-cols-5 sm:flex-wrap  md:grid md:grid-cols-3 sm:gap-10 flex items-center justify-center">
+                        <div className="gap-20 sm:grid sm:grid-cols-3 lg:grid lg:grid-cols-5 sm:flex-wrap  md:grid md:grid-cols-4 sm:gap-10 flex items-center justify-center">
                         <Image  src={"/assets/award01.svg"} height={25} width={150} alt="pic" />
                   <Image  src={"/assets/award02.svg"} height={25} width={89} alt="pic" />
                   <Image  src={"/assets/award03.svg"} height={35} width={119} alt="pic" />

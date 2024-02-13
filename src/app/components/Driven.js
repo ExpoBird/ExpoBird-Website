@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Driven = ({ para }) => {
   return (
    <Fragment>
-     <div className="font-montserrat sm:-ml-[50px] sm:rounded-b-[10px] md:rounded-b-[10px] md:-ml-[120px] bg-[#151515] lg:px-10 px-48 mb-24 lg:mb-10">
+     <div className="font-montserrat sm:-ml-[50px] sm:rounded-b-[10px] md:rounded-b-[10px] md:-ml-[120px] md:text-center bg-[#151515] lg:px-10 px-48 mb-24 lg:mb-10">
         <div className="flex items-center pt-20 sm:pt-5 lg:ml-[70px]">
           <div>
             <p className="text-[85px] lg:text-[85px] lg:font-black leading-none sm:text-center md:ml-[100px] sm:text-[60px] mt-2 text-white sm:mt-6 md:text-center font-black max-w-[750px]">
@@ -20,7 +20,7 @@ const Driven = ({ para }) => {
                   placeholder="Enter Your Email"
                   className="sm:mb-5 md:ml-12 sm:min-w-[300px] md:min-w-[450px] rounded-[40px] bg-transparent outline-[#5D6BD9] outline outline-1 border-none py-4 px-9 min-w-[420px] placeholder:text-white placeholder:text-center text-base text-white mr-8"
                 />
-                <button className="text-white md:ml-[220px] sm:mt-[20px] sm:ml-[100px] sm:mb-[52px] mb-10 mt-[40px] text-[17px] bg-[#00A256] rounded-[70px] py-4 px-6 font-semibold">
+                <button className="text-white md:ml-[70px] sm:mt-[20px] sm:ml-[100px] sm:mb-[52px] mb-10 mt-[40px] text-[17px] bg-[#00A256] rounded-[70px] py-4 px-6 font-semibold">
                   Contact Us{" "}
                   <span>
                     <Image
@@ -36,7 +36,7 @@ const Driven = ({ para }) => {
             </form>
           </div>
           <div>
-            <Image  className='sm:hidden' 
+            <Image  className='sm:hidden md:hidden' 
               src={"/assets/hero-image-expo.png"}
               width={800}
               height={750}
