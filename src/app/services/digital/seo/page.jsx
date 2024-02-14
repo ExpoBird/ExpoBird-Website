@@ -55,8 +55,8 @@ const page = () => {
         desc4={"In this phase we dig up, rather than simply assume, what the problem is. This involves understanding your business, brand, users and technology. But, we also take time to speak to people who are directly affected by the problem at hand and experts who have key insight."}
       />
       <ReasonBusiness
-        greenTitle={"5 Reasons"}
-        whiteTitle={"Shopify Means Business"}
+        greenTitle={"5 Reasons Shopify Means Business"}
+        // whiteTitle={"Shopify Means Business"}
         heading1={"Hardware, Software and Services, working together as one"}
         paragraph1={"You make a change on Magento and it reflects on your ERP. Your team can work side by side to extend their services. Readily available APIs or custom ones can transform your workflow to full automation. This way you don’t have to keep an eye on the integrated part of your system"}
         heading2={"Anything is Possible With Custom Shopify Development"}
