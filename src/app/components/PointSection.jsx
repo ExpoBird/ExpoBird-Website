@@ -68,12 +68,12 @@ const PointSection = ({ point1, desc1, point2, desc2, point3, desc3, point4, des
           />
         </div>
       </div>
-      <div className="grid grid-cols-3 sm:grid-cols-1 mt-20 sm:gap-y-20">
+      <div className="grid grid-cols-3 sm:grid-cols-1 md:grid-cols-1 mt-20 sm:gap-y-20">
         <div className="col-span-1">
           <Image src="/assets/03.svg" width={301} height={228} className="sm:mx-auto" alt="" />
         </div>
-        <div className="col-span-2 sm:col-span-1">
-          <div className="grid grid-cols-3 sm:grid-cols-1">
+        <div className="col-span-2 sm:col-span-1 md:col-span-1">
+          <div className="grid grid-cols-3 sm:grid-cols-1 md:grid-cols-1">
             <div className="col-span-1">
               <Image
                 src="/assets/defining.svg"
