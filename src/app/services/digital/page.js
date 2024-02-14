@@ -28,7 +28,7 @@ const App = () => {
           text1={"We Are #1"} text2={"Digital Marketing"} text3={"Company Dubai"}
         />
       </div>
-      <OurService2 />
+      {/* <OurService2 /> */}
       <FeatureWork title={"We are a team of design and research experts with over ten years of experience in improving businesses and peoples’ lives through smart design"}
       />
       <CaseStudy />
