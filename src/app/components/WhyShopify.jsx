@@ -5,15 +5,15 @@ const WhyShopify = ({desc,title,heading1,paragraph1,heading2,paragraph2,heading3
     <>
       <div className="bg-[#151515] pt-24 font-montserrat">
                 <div className="2xl:max-w-[1440px] mx-auto px-24 sm:px-8">
-                    <div className="grid grid-cols-2 sm:grid-cols-1 items-center justify-between">
+                    <div className="grid grid-cols-2 sm:grid-cols-1 md:grid md:grid-cols-2 items-center justify-between">
                         <div>
                             <h6 className="text-[85px] font-bold text-white sm:text-center sm:text-[40px] sm:leading-none sm:mb-12">{title}</h6>
                         </div>
                         <div>
-                            <p className="max-w-[525px] text-[25px] sm:text-[20px] font-normal text-white ml-auto sm:text-center">{desc}</p>
+                            <p className="max-w-[525px] text-[25px] sm:text-[20px] font-normal text-white ml-auto sm:mb-10 sm:items-center">{desc}</p>
                         </div>
                     </div>
-                    <div className="grid grid-cols-3 sm:grid-cols-2 place-items-center justify-between py-20 gap-y-20">
+                    <div className="grid grid-cols-3 sm:grid-cols-2 md:grid md:grid-cols-2  place-items-center lg:grid lg:grid-cols-3 lg:space-x-10 justify-between py-20 gap-y-20 md:space-x-10">
                         <div className='sm:grid sm:place-items-center sm:place-self-auto place-self-start'>
                             <Image src="/assets/why-image01.png" width={112} height={113} alt="" />
                             <h6 className="text-[36px] sm:text-[30px] text-white font-bold my-8 sm:text-center sm:leading-none max-w-[295px]">10 client <br/>stores</h6>

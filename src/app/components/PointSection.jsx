@@ -4,9 +4,9 @@ const PointSection = ({point1,desc1,point2,desc2,point3,desc3,point4,desc4}) => 
   return (
     <div className="bg-white py-24 px-24 sm:px-10 sm:px-18 relative z-10 font-montserrat 2xl:max-w-[1440px]">
       <div className="pb-20 sm:pb-14">
-        <p className="text-[85px] text-[#252424] font-black leading-none sm:text-center sm:text-[40px]">Our <br/>Process</p>
+        <p className="text-[85px] text-[#252424] font-black leading-none sm:text-center sm:text-[50px] md:text-[60px]">Our <br/>Process</p>
       </div>
-      <div className="grid grid-cols-3 sm:grid-cols-1 mt-20 sm:mt-0 sm:gap-y-20">
+      <div className="grid grid-cols-3 sm:grid-cols-1 mt-20 sm:mt-0 md:gap-y-10 sm:gap-y-20">
         <div className="col-span-1">
           <Image src="/assets/01.svg" width={301} height={228} className="sm:mx-auto" alt="" />
         </div>
