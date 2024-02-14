@@ -6,13 +6,11 @@ import Footer from '../components/Footer'
 const page = () => {
   return (
     <>
-
       <Navbar />
       <TestingNav />
       <div class="container mx-auto my-20 w-1/3 bg-white font-montserrat shadow-2l">
         <div class="p-5 space-y-5 shadow-xl">
           <h4 class="text-center text-3xl">Contact Us</h4>
-
           <form action="mailto:shirazhussain2015@gmail.com">
             <div class="grid grid-cols-2 gap-5">
               <input

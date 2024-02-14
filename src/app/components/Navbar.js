@@ -63,17 +63,7 @@ const Navbar = () => {
             <Link href="/services/digital/sem"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
             Search Engine Marketing (SEM)
             </li></Link>
-            {/* <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
-              Online Reputation Management (ORM)
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
-              Search Engine Marketing (SEM)
-            </li>
-            <li className="text-[16px]  mb-4 px-4" onClick={closeMobileMenu}>
-              Link Building Services
-            </li> */}
           </ul>
-
           <ul className="py-6 shadow-md shadow-[#00A256] ">
             <Link href="/services/social"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
               Social Media Marketing Services
@@ -94,17 +84,10 @@ const Navbar = () => {
               YouTube Video Production & Optimization
             </li></Link>
           </ul>
-
           <ul className="py-6 shadow-md shadow-[#00A256] ">
             <Link href="/services/web"><li className="text-[26px] leading-none font-semibold  underline mb-2 px-4" onClick={closeMobileMenu}>
               Web Design & Development Services
             </li></Link>
-            {/* <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
-              Responsive Website Design Services
-            </li>
-            <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
-              Rapid Web Design
-            </li> */}
             <Link href="/services/web/landing-pages-development"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Landing Pages Development
             </li></Link>
@@ -145,9 +128,6 @@ const Navbar = () => {
             <Link href="/services/video"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
               Video Production Services
             </li></Link>
-            {/* <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
-              TV commercial
-            </li> */}
             <Link href="/services/video/digital-video-commercials"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Digital Video Commercials
             </li></Link>
@@ -157,14 +137,10 @@ const Navbar = () => {
             <Link href="/services/video/coporate-video-production"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Coporate Video production
             </li></Link>
-            {/* <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
-              Video Production
-            </li> */}
             <Link href="/services/video/animation"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Animation Services
             </li></Link>
           </ul>
-
           <ul className="py-6 shadow-md shadow-[#00A256]">
             <Link href="/services/animation"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
               Animation Services
@@ -191,7 +167,6 @@ const Navbar = () => {
               TVC
             </li></Link>
           </ul>
-
           <ul className="py-6 shadow-md shadow-[#00A256]">
             <Link href="/services/ui"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
               UI/UX Design Services
@@ -208,14 +183,10 @@ const Navbar = () => {
             <Link href="/services/ui/cross-platform-compatibility"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               Cross-Platform Compatibility
             </li></Link>
-            {/* <li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
-              Technical Design
-            </li> */}
             <Link href="/services/ui/ux"><li className="text-[16px]  mb-2 px-4" onClick={closeMobileMenu}>
               UX Design
             </li></Link>
           </ul>
-
           <ul className="py-6 shadow-md shadow-[#00A256]">
             <Link href="/services/appdev"><li className="text-[26px] leading-none font-semibold underline  mb-4 px-4" onClick={closeMobileMenu}>
               Application Development Services
