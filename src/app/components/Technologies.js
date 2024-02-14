@@ -21,7 +21,7 @@ const Technologies = () => {
           </h5>
         </div>
 
-        <div className="tabs bg-transparent sm:w-[100%] w-[80%] min-w-[240px] h-[250px] sm:p-0 p-12 relative left-1/2 -translate-x-2/4">
+        <div className="tabs bg-transparent sm:w-[100%] w-[90%] min-w-[240px] h-[250px] sm:p-0 p-12 relative left-1/2 -translate-x-2/4">
           <input type="radio" id="tab1" name="tab-control" />
           <input type="radio" id="tab2" name="tab-control" />
           <input type="radio" id="tab3" name="tab-control" />
@@ -88,7 +88,7 @@ const Technologies = () => {
           </ul>
 
           <div className="sm:mt-5 sm:mb-10 slider relative transition w-[16.667%]">
-            <div className="sm:hidden indicator relative max-w-[100%] my-0 mx-auto bg-[#A045F2] w-[50px] h-[4px] rounded-sm"></div>
+            <div className="sm:hidden indicator relative max-w-[100%] my-0 mx-auto bg-[#00A256] w-[50px] h-[4px] rounded-sm"></div>
           </div>
           <div className="content mt-8 ">
             <section className="sm:gap-[48px] flex-row justify-around sm:justify-evenly flex-wrap">
