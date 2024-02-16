@@ -33,7 +33,7 @@ const Faq = ({ question, answer, question2, answer2, question3, answer3, questio
                 </div>
               </div>
             </div>
-            <div className="sm:grid sm:grid-cols-1 md:grid md:grid-cols-1 grid grid-cols-2 gap-32 pt-44 sm:pt-20 px-24">
+            <div className="sm:justify-center md:justify-center sm:text-center sm:flex sm:items-center sm:m-auto md:text-center md:flex md:m-auto sm:grid sm:grid-cols-1 md:grid md:grid-cols-1 grid grid-cols-2 gap-32 pt-44 sm:pt-20 px-24">
               <div className="sm:w-[280px] sm:ml-[100px] md :ml-[100px] relative parentBox">
                 <div className="card-faq" id="card01"></div>
                 <div className="card-faq" id="card02"></div>

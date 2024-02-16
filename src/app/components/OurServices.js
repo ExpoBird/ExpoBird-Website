@@ -6,13 +6,13 @@ const OurServices = () => {
     <Fragment>
       <div className="font-montserrat sm:mt-[10px] md:mt-[60px] sm:mb-1 pt-0 mb-[40px] lg:pt-0">
         <div className="sm:border-none lg:border-none md:border-none border-t border-[#BDBDBD]"></div>
-        <div className="sm:px-10 md:px-30 md:mt-[-160px] px-48">
+        <div className="sm:px-10 md:px-30 px-48 sm:mt-10 md:mt-10">
           <div className="grid grid-cols-3 md:grid md:grid-cols-1 lg:grid lg:grid-cols-1 sm:block xl:grid xl:grid-cols-1 2xl:grid 2xl:grid-cols-1">
             <div className="sm:border-none md:items-center md:border-none lg:border-none xl:ml-[-110px] lg:ml-[-100px] font-montserrat border-r border-[#BDBDBD]">
-              <p className="text-black sm:static md:static sm:text-[40px] leading-none text-[70px] mr-[10px] font-black md:text-[60px] xl:ml-[10px] lg:text-[50px] xl:text-[40px] lg:ml-[30px] mt-32 md:text-center sm:text-center">
+              <p className="text-black sm:text-[40px] leading-none text-[70px] mr-[10px] font-black md:text-[60px] xl:ml-[10px] lg:text-[50px] xl:text-[40px] lg:ml-[30px] mt-32 md:text-center sm:text-center sm:flex sm:items-center sm:m-auto md:flex md:items-center md:m-auto sm:justify-center md:justify-center">
                 Our Services
               </p>
-              <p className="text-2xl md:text-center lg:ml-[30px] sm:text-center sm:text-[20px] text-black my-12 md:text-[20px]">
+              <p className="sm:mt-10 md:mt-10 text-2xl md:text-center lg:ml-[30px] sm:text-center sm:text-[20px] text-black my-12 md:text-[20px] sm:flex sm:items-center sm:m-auto md:flex md:items-center md:m-auto">
                 Choose Expobird as your digital marketing agency and propel your
                 business to new heights with our award-winning digital marketing
                 services and proprietary technology platform.
