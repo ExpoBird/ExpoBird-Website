@@ -443,7 +443,7 @@ body {
   content: "";
   top: 9px;
   left: 5px;
-  width: 10px;
+  width: 11px;
   height: 2px;
   background: currentColor;
 }
@@ -3361,8 +3361,8 @@ img {
   .card-tag {
     float: none;
     position: relative;
-    margin-left:102px;
-    top:7px;
+    margin-left: 102px;
+    top: 7px;
   }
 }
 
@@ -3470,20 +3470,27 @@ img {
   position: relative;
   z-index: 99;
 }
-.accordion-nav h1, h2, h3, h4 {
+
+.accordion-nav h1,
+h2,
+h3,
+h4 {
   cursor: pointer;
   /* text-shadow: 0px 2px black; */
   backdrop-filter: blur(5px);
 }
+
 .accordion-nav h1 {
   padding: 3px 30px;
   font-size: 1.5rem;
   font-weight: 700;
 }
 
-.accordion-nav div, .accordion-nav p {
+.accordion-nav div,
+.accordion-nav p {
   display: none;
 }
+
 .accordion-nav h2 {
   padding: 10px 25px;
   font-size: 1.1rem;
@@ -3494,14 +3501,17 @@ img {
   padding: 5px 30px;
   font-size: .9rem;
 }
+
 .accordion-nav h4 {
   padding: 5px 35px;
   font-size: .9rem;
 }
+
 .accordion-nav .opened-for-codepen {
   display: none;
 }
-.mob-nav-item{
+
+.mob-nav-item {
   line-height: 0.75rem;
   font-size: 10px;
 }
@@ -3509,7 +3519,7 @@ img {
 
 /* ///////////////////// digital service ////////////// */
 
-.bg-hero-image{
+.bg-hero-image {
   background: url("/assets/digital/hero-image.png");
   background-position: center;
   background-size: cover;
@@ -3518,7 +3528,7 @@ img {
 
 /* /////////////////////o letter //////////////////// */
 
-.o-letter{
+.o-letter {
   width: 20px;
   height: 20px;
   border-radius: 100px;
@@ -3527,7 +3537,7 @@ img {
   transition: all 0.7s;
 }
 
-h1:hover .o-letter{
+h1:hover .o-letter {
   width: 120px;
   border-radius: 45px;
   border-color: #A045F2;
@@ -3538,9 +3548,3 @@ h1:hover .o-letter{
    
   }
 } */
-
-
-
-
-
-

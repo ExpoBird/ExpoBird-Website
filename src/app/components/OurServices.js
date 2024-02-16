@@ -4,12 +4,12 @@ import Image from 'next/image';
 const OurServices = () => {
   return (
     <Fragment>
-          <div className="font-montserrat  sm:mt-[140px] md:mt-[50px] sm:mb-1 pt-28 lg:pt-0">
+          <div className="font-montserrat sm:mt-[10px] md:mt-[10px] sm:mb-1 pt-0 mb-[40px] lg:pt-0">
         <div className="sm:border-none lg:border-none md:border-none border-t border-[#BDBDBD]"></div>
         <div className="sm:px-10 md:px-30 md:mt-[-160px] px-48">
           <div className="grid grid-cols-3 md:grid md:grid-cols-1 lg:grid lg:grid-cols-1 sm:block xl:grid xl:grid-cols-1 2xl:grid 2xl:grid-cols-1">
             <div className="sm:border-none md:items-center md:border-none lg:border-none xl:ml-[-110px] lg:ml-[-100px] font-montserrat border-r border-[#BDBDBD]">
-              <p className="text-black mr-10 sm:static md:static sm:text-[40px] leading-none text-[85px] font-black xl:text-[50px] md:text-[60px] xl:ml-[6px] lg:text-[50px] lg:ml-[30px] mt-32 md:text-center sm:text-center">
+              <p className="text-black sm:static md:static sm:text-[40px] leading-none text-[70px] mr-[10px] font-black md:text-[60px] xl:ml-[10px] lg:text-[50px] xl:text-[40px] lg:ml-[30px] mt-32 md:text-center sm:text-center">
                 Our Services
               </p>
               <p className="text-2xl md:text-center lg:ml-[30px] sm:text-center sm:text-[20px] text-black my-12 md:text-[20px]">
