@@ -1012,7 +1012,7 @@ body {
 }
 
 .ico .circle {
-  background: #00A256;
+  background-image: linear-gradient(52deg, #1295d4 0%, #7ec443 100%);
   border-radius: 50%;
   display: inline-block;
   height: 50px;
