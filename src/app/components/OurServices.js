@@ -4,7 +4,7 @@ import Image from 'next/image';
 const OurServices = () => {
   return (
     <Fragment>
-          <div className="font-montserrat sm:mt-[10px] md:mt-[10px] sm:mb-1 pt-0 mb-[40px] lg:pt-0">
+      <div className="font-montserrat sm:mt-[10px] md:mt-[60px] sm:mb-1 pt-0 mb-[40px] lg:pt-0">
         <div className="sm:border-none lg:border-none md:border-none border-t border-[#BDBDBD]"></div>
         <div className="sm:px-10 md:px-30 md:mt-[-160px] px-48">
           <div className="grid grid-cols-3 md:grid md:grid-cols-1 lg:grid lg:grid-cols-1 sm:block xl:grid xl:grid-cols-1 2xl:grid 2xl:grid-cols-1">
@@ -17,18 +17,18 @@ const OurServices = () => {
                 business to new heights with our award-winning digital marketing
                 services and proprietary technology platform.
               </p>
-              <button className="text-white sm:mt-2 sm:mb-1 md:ml-[230px] sm:items-center sm:ml-[200px] bg-[#00A256] text-[17px] rounded-[70px] lg:ml-[30px] py-4 px-6 font-semibold">
-                  See All{" "}
-                  <span>
-                    <Image
-                      src={"/assets/Send.svg"}
-                      width={21}
-                      height={20}
-                      className="inline"
-                      alt="pic"
-                    />
-                  </span>
-                </button>
+              <button className="text-white sm:mt-2 sm:mb-1 md:flex md:items-center md:m-auto sm:items-center sm:ml-[200px] bg-[#00A256] text-[17px] rounded-[70px] lg:ml-[30px] py-4 px-6 font-semibold">
+                See All{" "}
+                <span>
+                  <Image
+                    src={"/assets/Send.svg"}
+                    width={21}
+                    height={20}
+                    className="inline"
+                    alt="pic"
+                  />
+                </span>
+              </button>
             </div>
             <div className="sm:border-none md:border-none lg:border-none xl:border-none border-r border-[#BDBDBD] sm:grid sm:grid-cols-2 md:grid md:grid-cols-2 lg:grid lg:grid-cols-2 xl:grid xl:grid-cols-2 2xl:grid 2xl:grid-cols-2 3xl:grid 3xl:grid-cols-2">
               <div className="sm:border-none md:border-none lg:border-none xl:border-none sm:px-0 px-6 py-20 border-b border-[#BDBDBD]">
@@ -61,7 +61,7 @@ const OurServices = () => {
               <div className="sm:px-0 px-6 py-20 sm:border-none md:border-none lg:border-none xl:border-none border-b border-[#BDBDBD]">
                 <div className="p-9 sm:p-4">
                   <p className="text-black md:ml-[-30px] sm:text-center text-3xl font-bold">
-                   SEO
+                    SEO
                   </p>
                   <p className="sm:text-[20px] md:ml-[-30px] sm:text-center text-black text-2xl my-5">
                     Choose Expobird as your digital marketing agency
@@ -259,7 +259,6 @@ const OurServices = () => {
           </div>
         </div>
       </div>
-
     </Fragment>
   )
 }
