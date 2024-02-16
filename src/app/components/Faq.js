@@ -43,7 +43,7 @@ const Faq = ({ question, answer, question2, answer2, question3, answer3, questio
                 <h6 className="sm:text-[30px] sm:text-center sm:flex sm:items-center sm:m-auto md:text-[40px] md:text-center md:flex md:items-center md:m-auto lg:text-[60px] text-[85px] text-white font-black max-w-[600px] leading-none mb-10">Have An Idea? Lets Build And Scale It!</h6>
                 <p className="text-2xl sm:text-[20px] md:text-center md:flex md:items-center md:m-auto md:mt-10 leading-none text-white max-w-[300px] sm:text-center sm:flex sm:items-center sm:m-auto sm:mt-10">{para}</p>
                 <div className="text-center">
-                  <button className="sm:justify-center md:justify-center sm:text-center sm:flex sm:items-center sm:m-auto md:text-center md:flex md:m-auto sm:w-[100px] sm:relative sm:bottom-[30px] sm:mt-20 md:mt-20 sm:h-[100px] sm:text-[20px] md:w-[100px] md:h-[100px] md:text-[20px] md:items-center bg-[#00A256] w-[100px] h-[100px] text-[20px] rounded-full text-white  leading-none dark_btn lg:h-[100px] lg:w-[100px] lg:text-[20px] lg:mt-10">Lets
+                  <button className="sm:justify-center md:justify-center sm:text-center sm:flex sm:items-center sm:m-auto md:text-center md:flex md:m-auto sm:w-[100px] sm:relative sm:bottom-[30px] sm:mt-20 md:mt-20 sm:h-[100px] sm:text-[20px] md:w-[100px] md:h-[100px] md:text-[20px] md:items-center newColor w-[100px] h-[100px] text-[20px] rounded-full text-white  leading-none dark_btn lg:h-[100px] lg:w-[100px] lg:text-[20px] lg:mt-10">Lets
                     Talk</button>
                 </div>
               </div>

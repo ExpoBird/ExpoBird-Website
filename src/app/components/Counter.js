@@ -56,7 +56,7 @@ const Counter = () => {
             <h6 className="sm:text-[30px] md:text-[45px] text-6xl text-white max-w-[600px] leading-none font-bold pt-20 pb-10 text-center mx-auto">Want  to work
               with us?</h6>
             <div className="text-center">
-            <button className="text-white sm:mb-0 mb-10 mt-6 bg-[#00A256] rounded-[70px] py-4 px-6 font-semibold text-[17px]">
+            <button className="text-white sm:mb-0 mb-10 mt-6 newColor rounded-[70px] py-4 px-6 font-semibold text-[17px]">
                   Lets Talk
                   <span>
                     <Image

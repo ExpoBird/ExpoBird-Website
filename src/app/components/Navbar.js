@@ -35,7 +35,7 @@ const Navbar = () => {
                   Services
                 </li>
               </ul>
-              <Link href="/contact"><button className="bg-[#00A256] sm:hidden ml-20 justify-end px-5 py-3 rounded-[40px] text-white text-[17px] font-semibold">
+              <Link href="/contact"><button className="newColor sm:hidden ml-20 justify-end px-5 py-3 rounded-[40px] text-white text-[17px] font-semibold">
                 Let’s Talk <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
               </button></Link>
             </div>
