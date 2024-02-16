@@ -28,11 +28,14 @@ const Navbar = () => {
                 <Link href="/about"><li className="text-white mr-4 text-[16px] font-semibold">
                   About Us
                 </li></Link>
+                <Link href="/contact"><li className="text-white mr-4 text-[16px] font-semibold">
+                  Contact Us
+                </li></Link>
                 <li className="text-white mr-4 text-[16px] font-semibold" onClick={toggleMobileMenu}>
                   Services
                 </li>
               </ul>
-              <Link href="/contact"><button className="bg-color-1 sm:hidden ml-20 justify-end px-5 py-3 rounded-[40px] text-white text-[17px] font-semibold">
+              <Link href="/contact"><button className="bg-[#00A256] sm:hidden ml-20 justify-end px-5 py-3 rounded-[40px] text-white text-[17px] font-semibold">
                 Let’s Talk <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
               </button></Link>
             </div>
