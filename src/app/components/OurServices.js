@@ -17,7 +17,7 @@ const OurServices = () => {
                 business to new heights with our award-winning digital marketing
                 services and proprietary technology platform.
               </p>
-              <button className="text-white sm:mt-2 sm:mb-1 md:flex md:items-center md:m-auto sm:items-center sm:ml-[200px] bg-[#00A256] text-[17px] rounded-[70px] lg:ml-[30px] py-4 px-6 font-semibold">
+              <button className="text-white sm:mt-2 sm:mb-1 sm:flex sm:items-center sm:m-auto md:flex md:items-center md:m-auto bg-[#00A256] text-[17px] rounded-[70px] lg:ml-[30px] py-4 px-6 font-semibold">
                 See All{" "}
                 <span>
                   <Image
