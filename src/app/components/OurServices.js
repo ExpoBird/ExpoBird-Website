@@ -17,7 +17,7 @@ const OurServices = () => {
                 business to new heights with our award-winning digital marketing
                 services and proprietary technology platform.
               </p>
-              <button className="text-white sm:mt-2 sm:mb-1 sm:flex sm:items-center sm:m-auto md:flex md:items-center md:m-auto bg-[#00A256] text-[17px] rounded-[70px] lg:ml-[30px] py-4 px-6 font-semibold">
+              <button className="text-white sm:mb-1 sm:flex sm:items-center sm:m-auto md:flex md:items-center md:m-auto bg-[#00A256] text-[17px] rounded-[70px] lg:ml-[30px] py-4 px-6 font-semibold md:mt-10 sm:mt-0">
                 See All{" "}
                 <span>
                   <Image
@@ -33,7 +33,7 @@ const OurServices = () => {
             <div className="sm:border-none md:border-none lg:border-none xl:border-none border-r border-[#BDBDBD] sm:grid sm:grid-cols-2 md:grid md:grid-cols-2 lg:grid lg:grid-cols-2 xl:grid xl:grid-cols-2 2xl:grid 2xl:grid-cols-2 3xl:grid 3xl:grid-cols-2">
               <div className="sm:border-none md:border-none lg:border-none xl:border-none sm:px-0 px-6 py-20 border-b border-[#BDBDBD]">
                 <div className="p-9 sm:p-4">
-                  <p className="text-black md:ml-[-30px] sm:text-center text-3xl font-bold">
+                  <p className="text-black sm:flex sm:items-center sm:m-auto md:flex md:items-center md:m-auto sm:text-center text-3xl font-bold">
                     Digital Marketing
                   </p>
                   <p className="text sm:text-[20px] md:ml-[-30px] sm:text-center text-black text-2xl my-5">
