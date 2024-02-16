@@ -28,9 +28,6 @@ const Navbar = () => {
                 <Link href="/about"><li className="text-white mr-4 text-[16px] font-semibold">
                   About Us
                 </li></Link>
-                <Link href="/contact"><li className="text-white mr-4 text-[16px] font-semibold">
-                  Contact Us
-                </li></Link>
                 <li className="text-white mr-4 text-[16px] font-semibold" onClick={toggleMobileMenu}>
                   Services
                 </li>
@@ -43,7 +40,7 @@ const Navbar = () => {
         </div>
       </div>
       <div
-        className={`z-50 fixed cursor-pointer top-0 left-0 h-screen w-full bg-[#151515] text-white transform transition-transform duration-300 ${isMobileMenuOpen ? 'translate-y-0' : 'translate-y-full'
+        className={`z-50 sm:hidden md:hidden fixed cursor-pointer top-0 left-0 h-screen w-full bg-[#151515] text-white transform transition-transform duration-300 ${isMobileMenuOpen ? 'translate-y-0 sm:hidden md:hidden' : 'translate-y-full sm:hidden md:hidden'
           }`}
       >
         <button onClick={toggleMobileMenu} className="text-white absolute right-28 text-6xl cursor-pointer -mr-[98px]">

@@ -33,17 +33,24 @@ const Faq = ({ question, answer, question2, answer2, question3, answer3, questio
                 </div>
               </div>
             </div>
-            <div className="sm:grid sm:grid-cols-1 md:grid md:grid-cols-1 grid grid-cols-2 gap-32 pt-44 sm:pt-20 px-24">
+            <div className="sm:justify-center md:justify-center sm:text-center sm:flex sm:items-center sm:m-auto md:text-center md:flex md:m-auto sm:grid sm:grid-cols-1 md:grid md:grid-cols-1 grid grid-cols-2 gap-32 pt-44 sm:pt-20 px-24">
               <div className="sm:w-[280px] sm:ml-[100px] md :ml-[100px] relative parentBox">
                 <div className="card-faq" id="card01"></div>
                 <div className="card-faq" id="card02"></div>
                 <div className="card-faq" id="card03"></div>
               </div>
               <div>
+<<<<<<< HEAD
                 <h6 className="sm:hidden md:text-[40px] md:text-center lg:text-[60px] text-[85px] text-white font-black max-w-[600px] leading-none mb-10">Have An Idea? Lets Build And Scale It!</h6>
                 <p className="text-2xl sm:text-[20px] md:ml-[140px] sm:ml-[90px] sm:text-center  leading-none text-white max-w-[300px]">{para}</p>
                 <div className="text-right">
                   <button className="sm:w-[100px] sm:relative md:right-[200px] sm:right-[150px] sm:bottom-[30px] sm:mt-20 md:mt-20 sm:h-[100px] sm:text-[20px] sm:items-center md:w-[100px] md:h-[100px] md:text-[20px] md:items-center bg-color-1  w-[178px] h-[178px] rounded-full text-white text-[36px] leading-none dark_btn" >Lets <br />
+=======
+                <h6 className="sm:text-[30px] sm:text-center sm:flex sm:items-center sm:m-auto md:text-[40px] md:text-center md:flex md:items-center md:m-auto lg:text-[60px] text-[85px] text-white font-black max-w-[600px] leading-none mb-10">Have An Idea? Lets Build And Scale It!</h6>
+                <p className="text-2xl sm:text-[20px] md:text-center md:flex md:items-center md:m-auto md:mt-10 leading-none text-white max-w-[300px] sm:text-center sm:flex sm:items-center sm:m-auto sm:mt-10">{para}</p>
+                <div className="text-center">
+                  <button className="sm:justify-center md:justify-center sm:text-center sm:flex sm:items-center sm:m-auto md:text-center md:flex md:m-auto sm:w-[100px] sm:relative sm:bottom-[30px] sm:mt-20 md:mt-20 sm:h-[100px] sm:text-[20px] md:w-[100px] md:h-[100px] md:text-[20px] md:items-center bg-[#00A256] w-[100px] h-[100px] text-[20px] rounded-full text-white  leading-none dark_btn lg:h-[100px] lg:w-[100px] lg:text-[20px] lg:mt-10">Lets
+>>>>>>> 342314923f8945c9758a8932bd8b42e04dcd6e85
                     Talk</button>
                 </div>
               </div>

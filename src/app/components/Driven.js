@@ -4,13 +4,13 @@ import Image from 'next/image'
 const Driven = ({ para }) => {
   return (
    <Fragment>
-     <div className="font-montserrat sm:-ml-[50px] sm:rounded-b-[10px] md:rounded-b-[10px] md:-ml-[120px] md:text-center bg-[#151515] lg:px-10 px-48 mb-24 lg:mb-10">
+     <div className="font-montserrat sm:-ml-[50px] sm:rounded-b-[10px] md:rounded-b-[10px] bg-[#151515] lg:px-10 md:px-20 px-48 mb-24 lg:mb-10 md:text-center">
         <div className="flex items-center pt-20 sm:pt-5 lg:ml-[70px]">
           <div>
-            <p className="text-[85px] lg:text-[85px] lg:font-black leading-none sm:text-center md:ml-[100px] sm:text-[60px] mt-2 text-white sm:mt-6 md:text-center font-black max-w-[750px]">
+            <p className="text-[85px] lg:text-[85px] lg:font-black leading-none sm:text-center md:flex md:items-center md:m-auto sm:text-[60px] mt-2 text-white sm:mt-6 font-black max-w-[750px] md:mb-10 md:mt-10">
               Data-Driven Revenue Marketing
             </p>
-            <p className="sm:text-[20px] sm:pr-[24px] md:pl-[25px] md:text-center sm:text-center  sm:flex-wrap md:ml-[60px] lg:text-[20px] text-white text-2xl leading-none max-w-[820px] my-12">
+            <p className="sm:text-[20px] sm:pr-[24px] sm:text-center sm:flex-wrap md:flex md:items-center md:m-auto lg:text-[20px] text-white text-2xl leading-none max-w-[820px] my-12 md:mb-10 md:mt-10">
               {para}
             </p>
             <form>
@@ -18,9 +18,9 @@ const Driven = ({ para }) => {
                 <input
                   type="email"
                   placeholder="Enter Your Email"
-                  className="sm:mb-5 md:ml-12 sm:min-w-[300px] md:min-w-[450px] rounded-[40px] bg-transparent outline-[#5D6BD9] outline outline-1 border-none py-4 px-9 min-w-[420px] placeholder:text-white placeholder:text-center text-base text-white mr-8"
+                  className="sm:mb-5 md:ml-12 sm:min-w-[300px] md:min-w-[450px] rounded-[40px] bg-transparent outline-[#5D6BD9] outline outline-1 border-none py-4 px-9 min-w-[420px] placeholder:text-white placeholder:text-center text-base text-white mr-8 md:items-center md:m-auto"
                 />
-                <button className="text-white md:ml-[70px] sm:mt-[20px] sm:ml-[100px] sm:mb-[52px] mb-10 mt-[40px] text-[17px] lg:ml-[140px] bg-[#00A256] rounded-[70px] py-4 px-6 font-semibold">
+                <button className="text-white sm:mt-[20px] sm:ml-[100px] sm:mb-[52px] mb-10 mt-[40px] text-[17px] lg:ml-[140px] bg-[#00A256] rounded-[70px] py-4 px-6 font-semibold md:flex md:items-center md:m-auto md:mb-10 md:mt-10">
                   Contact Us{" "}
                   <span>
                     <Image

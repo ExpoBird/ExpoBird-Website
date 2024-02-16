@@ -75,12 +75,14 @@ const Home = ({ description }) => {
         src="/scripts/script-3.js"
         strategy="lazyOnload"
       ></Script>
-
       <Navbar />
       <TestingNav />
       <Hero />
       <HeroBackground />
+<<<<<<< HEAD
     <OurServices />
+=======
+>>>>>>> 342314923f8945c9758a8932bd8b42e04dcd6e85
       <Counter />
       <CaseStudy />
       <FeatureWork title={"We are a team of design and research experts with over ten years of experience in improving businesses and peoples lives through smart design solutions"} />
@@ -95,9 +97,11 @@ const Home = ({ description }) => {
         answer4={"Django, Node JS, Express JS, Next JS"}
         para={"Can Software integrate with other platforms and services?"}
       />
+      <OurServices />
       <Driven para={"Choose Expobird as your software development agency and propel your business to new heights with our award-winning software development services and proprietary technology platform."} />
       <Awards />
       <HouseTechnology />
+      {/* <OurServices /> */}
       <Technologies />
       <Blog1 menuData={Menu} />
       <Footer />

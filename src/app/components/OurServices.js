@@ -4,36 +4,36 @@ import Image from 'next/image';
 const OurServices = () => {
   return (
     <Fragment>
-          <div className="font-montserrat  sm:mt-[140px] md:mt-[50px] sm:mb-1 pt-28 lg:pt-0">
-        <div className="sm:border-none lg:border-none md:border-none border-t border-[#BDBDBD]"></div>
-        <div className="sm:px-10 md:px-30 md:mt-[-160px] px-48">
+      <div className="font-montserrat sm:mt-[10px] md:mt-[60px] sm:mb-1 pt-0 mb-[40px] lg:pt-0">
+        <div className="sm:border-none lg:border-none xl:border-none md:border-none border-t border-[#BDBDBD]"></div>
+        <div className="sm:px-10 md:px-30 px-48 sm:mt-10 md:mt-10">
           <div className="grid grid-cols-3 md:grid md:grid-cols-1 lg:grid lg:grid-cols-1 sm:block xl:grid xl:grid-cols-1 2xl:grid 2xl:grid-cols-1">
-            <div className="sm:border-none md:items-center md:border-none lg:border-none xl:ml-[-110px] lg:ml-[-100px] font-montserrat border-r border-[#BDBDBD]">
-              <p className="text-black mr-10 sm:static md:static sm:text-[40px] leading-none text-[85px] font-black xl:text-[50px] md:text-[60px] xl:ml-[6px] lg:text-[50px] lg:ml-[30px] mt-32 md:text-center sm:text-center">
+            <div className="sm:border-none md:items-center md:border-none lg:border-none xl:ml-[-110px] lg:ml-[-100px] font-montserrat xl:border-none border-r border-[#BDBDBD]">
+              <p className="text-black sm:text-[40px] leading-none text-[70px] mr-[10px] font-black md:text-[60px] xl:ml-[10px] lg:text-[50px] xl:text-[40px] lg:ml-[30px] mt-32 md:text-center sm:text-center sm:flex sm:items-center sm:m-auto md:flex md:items-center md:m-auto sm:justify-center md:justify-center">
                 Our Services
               </p>
-              <p className="text-2xl md:text-center lg:ml-[30px] sm:text-center sm:text-[20px] text-black my-12 md:text-[20px]">
+              <p className="sm:mt-10 md:mt-10 text-2xl md:text-center lg:ml-[30px] sm:text-center sm:text-[20px] text-black my-12 md:text-[20px] sm:flex sm:items-center sm:m-auto md:flex md:items-center md:m-auto">
                 Choose Expobird as your digital marketing agency and propel your
                 business to new heights with our award-winning digital marketing
                 services and proprietary technology platform.
               </p>
-              <button className="text-white sm:mt-2 sm:mb-1 md:ml-[230px] sm:items-center sm:ml-[200px] bg-[#00A256] text-[17px] rounded-[70px] lg:ml-[30px] py-4 px-6 font-semibold">
-                  See All{" "}
-                  <span>
-                    <Image
-                      src={"/assets/Send.svg"}
-                      width={21}
-                      height={20}
-                      className="inline"
-                      alt="pic"
-                    />
-                  </span>
-                </button>
+              <button className="text-white sm:mb-1 sm:flex sm:items-center sm:m-auto md:flex md:items-center md:m-auto bg-[#00A256] text-[17px] rounded-[70px] lg:ml-[30px] py-4 px-6 font-semibold md:mt-10 sm:mt-0">
+                See All{" "}
+                <span>
+                  <Image
+                    src={"/assets/Send.svg"}
+                    width={21}
+                    height={20}
+                    className="inline"
+                    alt="pic"
+                  />
+                </span>
+              </button>
             </div>
             <div className="sm:border-none md:border-none lg:border-none xl:border-none border-r border-[#BDBDBD] sm:grid sm:grid-cols-2 md:grid md:grid-cols-2 lg:grid lg:grid-cols-2 xl:grid xl:grid-cols-2 2xl:grid 2xl:grid-cols-2 3xl:grid 3xl:grid-cols-2">
               <div className="sm:border-none md:border-none lg:border-none xl:border-none sm:px-0 px-6 py-20 border-b border-[#BDBDBD]">
                 <div className="p-9 sm:p-4">
-                  <p className="text-black md:ml-[-30px] sm:text-center text-3xl font-bold">
+                  <p className="text-black md:ml-[-30px] sm:flex sm:items-center sm:m-auto md:flex md:items-center md:m-auto sm:text-center text-3xl font-bold">
                     Digital Marketing
                   </p>
                   <p className="text sm:text-[20px] md:ml-[-30px] sm:text-center text-black text-2xl my-5">
@@ -61,7 +61,7 @@ const OurServices = () => {
               <div className="sm:px-0 px-6 py-20 sm:border-none md:border-none lg:border-none xl:border-none border-b border-[#BDBDBD]">
                 <div className="p-9 sm:p-4">
                   <p className="text-black md:ml-[-30px] sm:text-center text-3xl font-bold">
-                   SEO
+                    SEO
                   </p>
                   <p className="sm:text-[20px] md:ml-[-30px] sm:text-center text-black text-2xl my-5">
                     Choose Expobird as your digital marketing agency
@@ -259,7 +259,6 @@ const OurServices = () => {
           </div>
         </div>
       </div>
-
     </Fragment>
   )
 }

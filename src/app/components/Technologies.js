@@ -12,12 +12,11 @@ const Technologies = () => {
       <div className="md:mb-[130px] font-montserrat sm:px-10 mt-10  mb-10 sm:mb-10  xl:px-36 px-0 relative z-10">
         <div className="py-[3rem] sm:py-[1rem]">
           <h5 className="sm:hidden md:hidden font-bold leading-none sm:text-[40px] sm:text-center md:text-[35px] mt-10 ml-[80px] sm:m-6 md:m-3 text-[85px] text-black sm:font-extrabold">
-            Our <br />
              Technologies
           </h5>
 
           <h5 className="xl:hidden 2xl:hidden md:text-[70px] md:ml-[60px] lg:hidden sm:text-[40px] sm:leading-none sm:text-center mt-10 sm:mt-0 ml-[60px] sm:m-6 md:m-3 text-[80px] text-black font-bold">
-            Our Technologies
+          Technologies
           </h5>
         </div>
 

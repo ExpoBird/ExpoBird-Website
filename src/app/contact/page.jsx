@@ -81,7 +81,7 @@ const page = () => {
                     <textarea placeholder='Message' rows="6"
                         class="w-full rounded-md px-4 border text-sm pt-2.5 outline-[#00A256]" required></textarea>
                     <button type='submit'
-                        class="text-white bg-[#00A256] hover:bg-[#00A256] font-semibold rounded-md text-sm px-4 py-2.5 w-full">Send</button>
+                        class="text-white bg-[#00A256] hover:bg-[#00A256] font-semibold rounded-md text-sm px-2 py-2.5 w-full">Send</button>
                 </form>
             </div>
         </div>
