@@ -28,9 +28,6 @@ const Navbar = () => {
                 <Link href="/about"><li className="text-white mr-4 text-[16px] font-semibold">
                   About Us
                 </li></Link>
-                <Link href="/contact"><li className="text-white mr-4 text-[16px] font-semibold">
-                  Contact Us
-                </li></Link>
                 <li className="text-white mr-4 text-[16px] font-semibold" onClick={toggleMobileMenu}>
                   Services
                 </li>
