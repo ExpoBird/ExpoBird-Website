@@ -79,10 +79,6 @@ const Home = ({ description }) => {
       <TestingNav />
       <Hero />
       <HeroBackground />
-<<<<<<< HEAD
-    <OurServices />
-=======
->>>>>>> 342314923f8945c9758a8932bd8b42e04dcd6e85
       <Counter />
       <CaseStudy />
       <FeatureWork title={"We are a team of design and research experts with over ten years of experience in improving businesses and peoples lives through smart design solutions"} />
