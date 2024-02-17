@@ -4,7 +4,7 @@ import Image from 'next/image';
 const HeroBackground = () => {
   return (
     <Fragment>
-      <div className="font-montserrat h-full hero-background-animation xl:max-w-full mx-auto">
+      <div className="font-montserrat h-full hero-background-animation xl:max-w-full mx-auto pb-10">
         <article className="wrapper01">
           <div className="marquee01 marquee--vertical01 marquee--reverse01">
             <div className="marquee__group01">
