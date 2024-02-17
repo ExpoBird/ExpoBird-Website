@@ -8,7 +8,7 @@ const roboto = Roboto({
 })
  
 export const metadata = {
-  title: 'ExpoBird',
+  title: 'DigiExpo',
   description: 'Developers ExpoBird',
 }
 export default function RootLayout({ children }) {
