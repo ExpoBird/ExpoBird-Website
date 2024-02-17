@@ -147,7 +147,7 @@ const OurServices = () => {
               <div className="sm:px-0  px-6 py-20 border-b sm:border-none md:border-none lg:border-none xl:border-none border-[#BDBDBD]">
                 <div className="p-9 sm:p-4">
                   <p className="text-black sm:text-center text-3xl font-bold">
-                    Web App
+                    Web App Development
                   </p>
                   <p className="sm:text-[20px] sm:text-center text-black text-2xl my-5">
                     Choose Expobird as your digital marketing agency
