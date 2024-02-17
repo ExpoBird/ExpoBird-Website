@@ -5,7 +5,7 @@ const Counter = () => {
   return (
     <>
        <div className="font-montserrat sm:mt-20 sm:p-12 p-24 bg-[#151515]">
-            <div className="grid grid-rows-5 grid-cols-2 gap-3">
+            {/* <div className="grid grid-rows-5 grid-cols-2 gap-3">
               <div className="max-w-[350px] row-end-3 row-span-2 ml-auto mr-36">
                 <Image src={"/assets/cta-image01.png"} width={420} height={600} alt="pic" />
                 <div className="mt-2 sm:mt-1 flex justify-center flex-col items-center">
@@ -34,7 +34,7 @@ const Counter = () => {
                   <p className="text-[#00A256] sm:ml-[25px] sm:text-[20px]  text-[24px]">Years Of Experience</p>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="sm:m-10  sm:grid md:grid md:mt-10 sm:mt-10 md:border-xsm md:border-y sm:border-xsm sm:border-y border-y md:grid-cols-2 sm:grid-cols-2 grid grid-cols-4 border-b border-[#BDBDBD] mt-8">
               <div className="flex justify-center flex-col items-center border-x border-[#BDBDBD] pb-10">
                 <p className="text-white mt-[40px] mb-[0px] mr-[20px] font-semibold text-[50px] leading-none"><span className="text-[#00A256]">+</span>10</p>
