@@ -17,6 +17,7 @@ import Awards from './components/Awards';
 import Blog1 from './components/Blog1';
 import Technologies from './components/Technologies';
 import TestingNav from './components/TestingNav';
+import Service from './components/Service';
 
 const Home = ({ description }) => {
 
@@ -66,10 +67,10 @@ const Home = ({ description }) => {
           key="desc"
         />
       </Head>
-      <Script
+      {/* <Script
         src="/scripts/script-1.js"
         strategy="lazyOnload"
-      ></Script>
+      ></Script> */}
 
       <Script
         src="/scripts/script-3.js"
@@ -79,7 +80,11 @@ const Home = ({ description }) => {
       <TestingNav />
       <Hero />
       <HeroBackground />
+<<<<<<< HEAD
       <OurServices />
+=======
+     <Service />
+>>>>>>> ca7453c44a41c9164c005a29cd4f06ddbc197e69
       <Counter />
       <CaseStudy />
       <FeatureWork title={"We are a team of design and research experts with over ten years of experience in improving businesses and peoples lives through smart design solutions"} />
