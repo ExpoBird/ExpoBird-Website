@@ -17,11 +17,11 @@ const Service = () => {
                   <p className="text-[50px] text-white font-bold pl-5" data-inviewport >Web Development</p>
                   <p className="text-[20px] text-white font-medium max-w-[50%] pl-5 py-3">We imagine and build experiences and businesses that win hearts and realize the future. Explore how we work.</p>
                   <Image src="/assets/web-development.webp" height={200} width={700} className="py-3" alt="" />
-                 <Link href="/services/web">
-                 <button className="newColor justify-end px-6 py-4 rounded-[40px] text-white text-[17px] font-semibold">
-              See All <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
-            </button>    
-                 </Link>
+                  <Link href="/services/web">
+                    <button className="newColor justify-end px-6 py-4 rounded-[40px] text-white text-[17px] font-semibold">
+                      See All <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
+                    </button>
+                  </Link>
                 </div>
               </div>
               <div className="pt-[2rem] h-screen">
@@ -30,10 +30,10 @@ const Service = () => {
                   <p className="text-[20px] text-white font-medium max-w-[50%] pl-5 py-3">We imagine and build experiences and businesses that win hearts and realize the future. Explore how we work.</p>
                   <Image src="/assets/ui-ux-design.webp" height={200} width={700} className="py-3" alt="" />
                   <Link href="/services/ui">
-                 <button className="newColor justify-end px-6 py-4 rounded-[40px] text-white text-[17px] font-semibold">
-              See All <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
-            </button>    
-                 </Link>
+                    <button className="newColor justify-end px-6 py-4 rounded-[40px] text-white text-[17px] font-semibold">
+                      See All <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
+                    </button>
+                  </Link>
                 </div>
               </div>
               <div className="pt-[2rem] h-screen">
@@ -42,10 +42,10 @@ const Service = () => {
                   <p className="text-[20px] text-white font-medium max-w-[50%] pl-5 py-3">We imagine and build experiences and businesses that win hearts and realize the future. Explore how we work.</p>
                   <Image src="/assets/ecommerce-development.webp" height={200} width={700} className="py-3" alt="" />
                   <Link href="/services/commerce">
-                 <button className="newColor justify-end px-6 py-4 rounded-[40px] text-white text-[17px] font-semibold">
-              See All <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
-            </button>    
-                 </Link>
+                    <button className="newColor justify-end px-6 py-4 rounded-[40px] text-white text-[17px] font-semibold">
+                      See All <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
+                    </button>
+                  </Link>
                 </div>
               </div>
               <div className="pt-[2rem] h-screen">
@@ -54,10 +54,10 @@ const Service = () => {
                   <p className="text-[20px] text-white font-medium max-w-[50%] pl-5 py-3">We imagine and build experiences and businesses that win hearts and realize the future. Explore how we work.</p>
                   <Image src="/assets/digital-branding.webp" height={200} width={700} className="py-3" alt="" />
                   <Link href="/services/digital">
-                 <button className="newColor justify-end px-6 py-4 rounded-[40px] text-white text-[17px] font-semibold">
-              See All <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
-            </button>    
-                 </Link>
+                    <button className="newColor justify-end px-6 py-4 rounded-[40px] text-white text-[17px] font-semibold">
+                      See All <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
+                    </button>
+                  </Link>
                 </div>
               </div>
               {/* <div className="p-[6rem]">
@@ -78,10 +78,10 @@ const Service = () => {
                   <p className="text-[20px] text-white font-medium max-w-[50%] pl-5 py-3">We imagine and build experiences and businesses that win hearts and realize the future. Explore how we work.</p>
                   <Image src="/assets/digital-branding.webp" height={200} width={700} className="py-3" alt="" />
                   <Link href="/services/digital">
-                 <button className="newColor justify-end px-6 ml-[15px] py-4 rounded-[40px] text-white text-[17px] font-semibold">
-              See All <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
-            </button>    
-                 </Link>
+                    <button className="newColor justify-end px-6 ml-[15px] py-4 rounded-[40px] text-white text-[17px] font-semibold">
+                      See All <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
+                    </button>
+                  </Link>
                 </div>
               </div>
               <div className="pt-[2rem] h-screen">
@@ -90,10 +90,10 @@ const Service = () => {
                   <p className="text-[20px] text-white font-medium max-w-[50%] pl-5 py-3">We imagine and build experiences and businesses that win hearts and realize the future. Explore how we work.</p>
                   <Image src="/assets/digital-marketing.webp" height={200} width={700} className="py-3" alt="" />
                   <Link href="/services/digital">
-                 <button className="newColor justify-end px-6 ml-[15px] py-4 rounded-[40px] text-white text-[17px] font-semibold">
-              See All <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
-            </button>    
-                 </Link>
+                    <button className="newColor justify-end px-6 ml-[15px] py-4 rounded-[40px] text-white text-[17px] font-semibold">
+                      See All <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
+                    </button>
+                  </Link>
                 </div>
               </div>
               <div className="pt-[3rem] h-screen">
@@ -102,10 +102,10 @@ const Service = () => {
                   <p className="text-[20px] text-white font-medium max-w-[50%] pl-5 py-3">We imagine and build experiences and businesses that win hearts and realize the future. Explore how we work.</p>
                   <Image src="/assets/ecommerce-development.webp" height={200} width={700} className="py-3" alt="" />
                   <Link href="/services/commerce">
-                 <button className="newColor justify-end px-6 ml-[15px] py-4 rounded-[40px] text-white text-[17px] font-semibold">
-              See All <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
-            </button>    
-                 </Link>
+                    <button className="newColor justify-end px-6 ml-[15px] py-4 rounded-[40px] text-white text-[17px] font-semibold">
+                      See All <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
+                    </button>
+                  </Link>
                 </div>
               </div>
               {/* <div className="pt-[2rem] h-screen">
@@ -130,10 +130,10 @@ const Service = () => {
                   <p className="text-[20px] text-white font-medium max-w-[50%] pl-5 py-3">We imagine and build experiences and businesses that win hearts and realize the future. Explore how we work.</p>
                   <Image src="/assets/ecommerce-development.webp" height={200} width={700} className="py-3" alt="" />
                   <Link href="/services/ui">
-                 <button className="newColor justify-end px-6 py-4 ml-[15px] rounded-[40px] text-white text-[17px] font-semibold">
-              See All <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
-            </button>    
-                 </Link>
+                    <button className="newColor justify-end px-6 py-4 ml-[15px] rounded-[40px] text-white text-[17px] font-semibold">
+                      See All <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
