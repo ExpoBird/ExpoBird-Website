@@ -60,7 +60,7 @@ const Home = ({ description }) => {
   return (
     <>
       <Head>
-        <title>Home - ExpoBird</title>
+        <title>Home - DigiExpo</title>
         <meta
           name='description'
           content={description}
@@ -94,7 +94,7 @@ const Home = ({ description }) => {
         question4={"which technology used for creating Backend applications"}
         answer4={"Django, Node JS, Express JS, Next JS"}
         para={"Can Software integrate with other platforms and services?"}
-      />
+      /> 
       <Driven para={"Choose Expobird as your software development agency and propel your business to new heights with our award-winning software development services and proprietary technology platform."} />
       <Awards />
       <HouseTechnology />
