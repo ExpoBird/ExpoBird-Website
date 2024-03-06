@@ -67,19 +67,15 @@ const Home = ({ description }) => {
           key="desc"
         />
       </Head>
-      <Script
+      {/* <Script
         src="/scripts/script-1.js"
         strategy="lazyOnload"
-      ></Script>
+      ></Script> */}
 
       <Script
         src="/scripts/script-3.js"
         strategy="lazyOnload"
       ></Script>
-         {/* <Script
-        src="/scripts/script-4.js"
-        strategy="lazyOnload"
-      ></Script> */}
       <Navbar />
       <TestingNav />
       <Hero />
