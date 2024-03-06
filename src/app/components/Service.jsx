@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Service = () => {
   return (
     <Fragment>
-      <div className="bg-[#0E0B2A] overflow-x-hidden font-montserrat">
+      <div className="bg-[#151515] overflow-x-hidden font-montserrat">
         <div className="py-[2rem] xl:px-36 px-10 relative z-10">
           <div className=" grid grid-cols-12">
             <div className="col-span-6 left-container">

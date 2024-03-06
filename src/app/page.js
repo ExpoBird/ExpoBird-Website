@@ -95,7 +95,6 @@ const Home = ({ description }) => {
         answer4={"Django, Node JS, Express JS, Next JS"}
         para={"Can Software integrate with other platforms and services?"}
       />
-      <OurServices />
       <Driven para={"Choose Expobird as your software development agency and propel your business to new heights with our award-winning software development services and proprietary technology platform."} />
       <Awards />
       <HouseTechnology />
