@@ -76,10 +76,10 @@ const Home = ({ description }) => {
         src="/scripts/script-3.js"
         strategy="lazyOnload"
       ></Script>
-         <Script
+         {/* <Script
         src="/scripts/script-4.js"
         strategy="lazyOnload"
-      ></Script>
+      ></Script> */}
       <Navbar />
       <TestingNav />
       <Hero />

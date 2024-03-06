@@ -13,12 +13,12 @@ const Service = () => {
               </div>
               <div className="p-[2rem]">
                 <ul className="list-none">
-                  <li className="text-[40px] text-[#7F7C9C] font-black sticky-text py-3">Digital Marketing</li>
-                  <li className="text-[40px] text-[#7F7C9C] font-black sticky-text py-3">Social Media Marketing</li>
-                  <li className="text-[40px] text-[#7F7C9C] font-black sticky-text py-3">Mobile Development</li>
-                  <li className="text-[40px] text-[#7F7C9C] font-black sticky-text py-3">Web Development</li>
-                  <li className="text-[40px] text-[#7F7C9C] font-black sticky-text py-3">Ui/Ux design</li>
-                  <li className="text-[40px] text-[#7F7C9C] font-black sticky-text py-3">Graphic Designing</li>
+                  <li className="text-[40px] text-[#7F7C9C] font-black sticky-text1 py-3">Digital Marketing</li>
+                  <li className="text-[40px] text-[#7F7C9C] font-black sticky-text1 py-3">Social Media Marketing</li>
+                  <li className="text-[40px] text-[#7F7C9C] font-black sticky-text1 py-3">Mobile Development</li>
+                  <li className="text-[40px] text-[#7F7C9C] font-black sticky-text1 py-3">Web Development</li>
+                  <li className="text-[40px] text-[#7F7C9C] font-black sticky-text1 py-3">Ui/Ux design</li>
+                  <li className="text-[40px] text-[#7F7C9C] font-black sticky-text1 py-3">Graphic Designing</li>
                 </ul>
               </div>
             </div>

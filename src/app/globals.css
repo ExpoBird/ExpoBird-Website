@@ -3648,13 +3648,13 @@ to {
 }
 }
 
-.sticky-text.active{
+.sticky-text1.active{
     color: white;
     padding-left: 5rem;
     position: relative;
 }
 
-.sticky-text.active::before{
+.sticky-text1.active::before{
     position: absolute;
     content: "";
     width: 50px;
