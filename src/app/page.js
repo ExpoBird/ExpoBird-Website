@@ -17,6 +17,7 @@ import Awards from './components/Awards';
 import Blog1 from './components/Blog1';
 import Technologies from './components/Technologies';
 import TestingNav from './components/TestingNav';
+import Service from './components/Service';
 
 const Home = ({ description }) => {
 
@@ -75,10 +76,15 @@ const Home = ({ description }) => {
         src="/scripts/script-3.js"
         strategy="lazyOnload"
       ></Script>
+         <Script
+        src="/scripts/script-4.js"
+        strategy="lazyOnload"
+      ></Script>
       <Navbar />
       <TestingNav />
       <Hero />
       <HeroBackground />
+     <Service />
       <Counter />
       <CaseStudy />
       <FeatureWork title={"We are a team of design and research experts with over ten years of experience in improving businesses and peoples lives through smart design solutions"} />

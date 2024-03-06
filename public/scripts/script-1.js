@@ -210,6 +210,7 @@ const inViewport = (entries, observer) => {
   const Obs = new IntersectionObserver(inViewport);
   const obsOptions = {};
   const ELs_inViewport = document.querySelectorAll('[data-inviewport]');
+
   const ELs_inViewport02 = document.querySelectorAll('[data-inviewport02]');
   const scrollText = document.querySelectorAll('.scroll-text');
   const scrollText02 = document.querySelectorAll('.scroll-text02');
@@ -229,6 +230,7 @@ const inViewport = (entries, observer) => {
       }
     });
   });
+
 
   ELs_inViewport02.forEach((EL, i) => {
     Obs.observe(EL, obsOptions);
@@ -270,4 +272,9 @@ timeln2.to(".sideChangeImage", {
   yPercent: 181,
   scrub : 1
 });
+
+    //  script
+
+
+    
 
