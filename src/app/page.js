@@ -15,6 +15,7 @@ import Service from './components/Service';
 import Tech from './components/Tech';
 import Footer from './components/Footer';
 import Testimonials from './components/Testimonials';
+import NewFooter from './components/NewFooter';
 
 const Home = ({ description }) => {
 
@@ -91,6 +92,7 @@ const Home = ({ description }) => {
       /> 
       <HouseTechnology />
       <Footer />
+      {/* <NewFooter /> */}
     </>
   )
 }
