@@ -2,7 +2,6 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import TestingNav from '../components/TestingNav'
 import Footer from '../components/Footer'
-import Counter from '../components/Counter'
 
 const page = () => {
   return (
