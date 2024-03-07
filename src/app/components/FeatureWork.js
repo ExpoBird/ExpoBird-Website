@@ -38,7 +38,7 @@ const FeatureWork = ({ title }) => {
                 </span>
               </h6>
 
-              <p className="sm:-mt-20 sm:text-center  sm:text-[20px] text-[25px] text-white max-w-[450px] pb-24">{title}</p>
+              <p className="sm:-mt-20 sm:text-center sm:text-[20px] text-[25px] text-white max-w-[450px] pb-24">{title}</p>
             </div>
             <div className="sm:grid sm:grid-cols-2 grid grid-cols-2 gap-8">
               <div className="max-w-[605px]">
@@ -59,7 +59,7 @@ const FeatureWork = ({ title }) => {
               </div>
             </div>
             <div className='text-center'>
-              <button className="text-white mb-10 mt-6 text-[17px] newColor rounded-[70px] py-4 px-6 font-semibold">
+              <button className="text-white mb-10 mt-6 text-[17px] bg-[#0045e5] rounded-[70px] py-4 px-6 font-semibold">
                 Hire Us{" "}
                 <span>
                   <Image

@@ -18,7 +18,7 @@ body {
 
 .swiper {
   width: 100%;
-  background-color: #0045e5;
+  background-color: #000213;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -47,7 +47,10 @@ body {
   background-color:#000213;
 }
 
-.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
-  display: none;
-  /* background-color: white; */
+.swiper-pagination-bullet-active{
+  background: white;
+}
+
+.swiper-pagination-bullet{
+  background: white;
 }
