@@ -44,7 +44,7 @@ export default function Award() {
 
         <SwiperSlide>
           <div className="font-montserrat swiper-card translate-y-20  shadow-[#0045e5] shadow-md bg-[#000213]" style={{ background: '#000213', color: 'white', height: '500px', borderRadius: '10px', padding: '20px', textAlign: 'center' }}>
-            <Image src={"/assets/awards/top-50-blockchain-development-companies-hire-best-developers-in-usa.webp"} height={100} width={100} alt="Logo" style={{ width: '90px', height: '100px', borderRadius: '50%', marginBottom: '10px', marginLeft: "80px" }} />
+            <Image src={"/assets/awards/top-50-blockchain-development-companies-hire-best-developers-in-usa.webp"} height={100} width={100} alt="Logo" style={{ width: '90px', height: '100px', borderRadius: '50%', marginBottom: '0px', marginLeft: "80px" }} />
             <h2 className='font-montserrat sm:text-[20px]' style={{ fontSize: '25px', fontWeight: 'bold', margin: '10px 0' }}>Top Android App Development</h2>
             <p className='font-montserrat sm:text-[20px]' style={{ fontSize: '25px', marginTop: "90px" }}>ExpoBird is listed as Top Android App Development Companies by good firms</p>
           </div>
