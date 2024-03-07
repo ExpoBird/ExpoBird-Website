@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Anta&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Anta&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
 
 @tailwind base;
 @tailwind components;
@@ -8,6 +12,8 @@ body {
   overflow-x: hidden;
   height: 100vh;
   width: 100%;
+  background-color: #000213;
+  color: #fff;
 }
 
 :root {
@@ -41,7 +47,7 @@ body {
   height: 100%;
   top: 0;
   z-index: -1;
-  background-color: #151515;
+  background-color: #000213;
 }
 
 .hero-background-animation::before {
@@ -1714,7 +1720,7 @@ body {
 }
 
 .technology-gradient {
-  background-color: #151515;
+  background-color: #000213;
 
 }
 
@@ -2240,7 +2246,7 @@ body {
 }
 
 .technology-gradient {
-  background-color: #151515;
+  background-color: #000213;
 }
 
 .underlined-svg::after {
@@ -2482,7 +2488,7 @@ body {
 }
 
 .technology-gradient {
-  background-color: #151515;
+  background-color: #000213;
 }
 
 .underlined-svg::after {

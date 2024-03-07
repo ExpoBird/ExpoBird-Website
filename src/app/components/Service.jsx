@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Service = () => {
   return (
     <Fragment>
-      <div className="bg-[#151515] overflow-x-hidden font-montserrat">
+      <div className="bg-[#000213] overflow-x-hidden font-montserrat">
         <div className="py-[2rem] xl:px-36 px-10 relative z-10">
           <div className=" grid grid-cols-12">
             <div className="col-span-6 left-container">
@@ -71,7 +71,7 @@ const Service = () => {
                 </ul>
               </div> */}
             </div>
-            <div className="col-span-6 border-l-2 border-[#7F7C9C]">
+            <div className="col-span-6">
               <div className="pt-[2rem] h-screen">
                 <div>
                   <p className="text-[50px] text-white font-bold pl-5" data-inviewport >Digital Marketing</p>

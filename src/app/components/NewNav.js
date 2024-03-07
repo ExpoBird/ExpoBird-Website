@@ -16,7 +16,7 @@ const NewNav = () => {
              <Image src={"/assets/hamburger.png"} height={10} width={20} alt='pic' onClick={() => setShowNav(true)} />
             }    
             {
-                showNav && <div className='sm:absolute md:hidden sm:z-10 font-montserrat text-white bg-[#151515] sm:h-screen sm:w-screen relative top-16 flex-col list-none left-0 cursor-pointer'>
+                showNav && <div className='sm:absolute md:hidden sm:z-10 font-montserrat text-white bg-[#000213] sm:h-screen sm:w-screen relative top-16 flex-col list-none left-0 cursor-pointer'>
                     <Image src={"/assets/close.png"} height={20} width={10} alt='pic' onClick={() => setShowNav(false)} />
                     <Image className='float-right relative right-6' src="/assets/download (1).png" height={80} width={90} alt='pic' />
                     <li className='relative mt-10 left-3 text-3xl font-semibold mb-2 text-center'><Link href="#">home</Link></li>
@@ -51,21 +51,7 @@ const NewNav = () => {
                                     </h1>
                                 )}
                             </div>
-                        </div>
-                        {
-                            isSubDropdown && (
-                                <ul>
-                                    <li className='text-center'>Search Engine Optimization</li>
-                                    <li className='text-center' >E-Commerce SEO</li>
-                                    <li className='text-center'>Content Writing Services</li>
-                                    <li className='text-center'>ORM</li>
-                                    <li className='text-center'>SEM</li>
-                                    <li className='text-center'>ORM</li>
-                                    <li className='text-center'>Link Building Services</li>
-                                </ul>
-                            )
-                        }
-                           
+                        </div>         
                                 <div onClick={() => setIsServiceOpen(!isServiceOpen)}>
                             <div>
                                 {isServiceOpen ? (
@@ -79,17 +65,6 @@ const NewNav = () => {
                                 )}
                             </div>
                         </div>
-                        {
-                            isServiceOpen && (
-                                <ul>
-                                    <li className='text-center'>FaceBook Marketing Services</li>
-                                    <li className='text-center' >Instagram Marketing Services</li>
-                                    <li className='text-center'> Social Media Management Services</li>
-                                    <li className='text-center'>Social Media Advertising Services</li>
-                                    <li className='text-center'>YouTube Video Production & Optimization</li>
-                                </ul>
-                            )
-                        }
                                 <li className='relative left-3 text-xl font-semibold mb-2 text-center'><Link href="#">Web Design & Development Services</Link></li>
                                 <li className='relative left-3 text-xl font-semibold mb-2 text-center'><Link href="#">E-commerce Development Services</Link></li>
                                 <li className='relative left-3 text-xl font-semibold mb-2 text-center'><Link href="#">Video Production Services</Link></li>

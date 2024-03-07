@@ -4,9 +4,9 @@ import Image from 'next/image'
 const Clients = () => {
   return (
     <>
-     <div className="font-montserrat xl:max-w-[1440px] sm:max-w-[500px] mx-auto">
+     <div className="font-montserrat xl:max-w-[1440px] bg-[#000213] sm:max-w-[500px] mx-auto">
         <div className="p-10 sm:p-0">
-          <h6 className="sm:text-[40px] sm:text-center sm:mt-10 sm:ml-[5px] ml-[60px] md:text-[50px] sm:font-extrabold text-[#151515] text-[85px] font-bold">See Our Clients</h6>
+          <h6 className="sm:text-[40px] sm:text-center sm:mt-10 sm:ml-[5px] ml-[60px] md:text-[50px] sm:font-extrabold text-[#ffff] text-[85px] font-bold">See Our Clients</h6>
         </div>
         <article className="wrapper sm:py-1 sm:pb-0 pb-20">
           <div className="marquee">

@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Driven2 = ({ para }) => {
   return (
    <Fragment>
-     <div className="font-montserrat sm:-ml-[120px] sm:rounded-b-[10px] md:rounded-b-[10px] md:-ml-[120px] bg-[#151515] px-48 mb-24">
+     <div className="font-montserrat sm:-ml-[120px] sm:rounded-b-[10px] md:rounded-b-[10px] md:-ml-[120px] bg-[#000213] px-48 mb-24">
         <div className="flex items-center pt-20 sm:pt-5">
           <div>
             <p className="text-[85px] leading-none sm:text-center sm:text-[40px] mt-2 text-white sm:mt-6 font-black max-w-[750px]">

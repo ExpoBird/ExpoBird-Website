@@ -5,14 +5,14 @@ import Script from 'next/script';
 const HouseTechnology = () => {
 
   <Script
-    src="/scripts/script-2.js"
+    src="/scripts/script-1.js"
     strategy="lazyOnload"
   ></Script>
 
   return (
     <Fragment>
       <div className='font-montserrat md:hidden'>
-        <div className="bg-[#151515]  sm:grid mt-20 sm:px-2 sm:grid-cols-1 grid grid-cols-2 items-center lg:px-10 gap-x-24 px-48">
+        <div className="bg-[#000213]  sm:grid mt-20 sm:px-2 sm:grid-cols-1 grid grid-cols-2 items-center lg:px-10 gap-x-24 px-48">
           <div>
             <p className="sm:text-[40px] lg:text-[85px] sm:text-center sm:mt-[40px] mt-[60px] sm:ml-[15px] md:text-[50px] text-[85px] text-white font-bold leading-none">
               In House Technology

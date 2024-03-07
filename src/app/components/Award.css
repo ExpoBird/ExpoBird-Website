@@ -12,13 +12,13 @@ body {
   font-size: 14px;
   margin: 0;
   padding: 0;
-  background-color: whitesmoke;
+  background-color: #000213 ;
 
 }
 
 .swiper {
   width: 100%;
-  background-color: whitesmoke;
+  background-color: #0045e5;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -44,5 +44,10 @@ body {
 }
 
 .swiper-js {
-  background-color: whitesmoke;
+  background-color:#000213;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+  display: none;
+  /* background-color: white; */
 }

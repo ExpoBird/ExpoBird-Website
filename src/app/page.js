@@ -2,8 +2,6 @@ import React from 'react';
 import Script from 'next/script';
 import Head from 'next/head';
 import Hero from './components/Hero';
-import OurServices from './components/OurServices';
-import Counter from './components/Counter';
 import FeatureWork from './components/FeatureWork';
 import HeroBackground from './components/HeroBackground';
 import Clients from './components/OurClients';
@@ -11,13 +9,11 @@ import Faq from './components/Faq';
 import Driven from './components/Driven';
 import HouseTechnology from './components/HouseTechnology';
 import Navbar from './components/Navbar';
-import CaseStudy from './components/CaseStudy';
-import Footer from './components/Footer';
 import Awards from './components/Awards';
-import Blog1 from './components/Blog1';
-import Technologies from './components/Technologies';
 import TestingNav from './components/TestingNav';
 import Service from './components/Service';
+import Tech from './components/Tech';
+import Footer from './components/Footer';
 
 const Home = ({ description }) => {
 
@@ -67,11 +63,6 @@ const Home = ({ description }) => {
           key="desc"
         />
       </Head>
-      {/* <Script
-        src="/scripts/script-1.js"
-        strategy="lazyOnload"
-      ></Script> */}
-
       <Script
         src="/scripts/script-3.js"
         strategy="lazyOnload"
@@ -81,10 +72,11 @@ const Home = ({ description }) => {
       <Hero />
       <HeroBackground />
      <Service />
-      <Counter />
-      <CaseStudy />
       <FeatureWork title={"We are a team of design and research experts with over ten years of experience in improving businesses and peoples lives through smart design solutions"} />
       <Clients />
+      <Driven para={"Choose Expobird as your software development agency and propel your business to new heights with our award-winning software development services and proprietary technology platform."} />
+      <Awards />
+      <Tech />
       <Faq question={"which technology used for creating mobile applications"}
         answer={"React Native, Flutter, Ionic, JavaScript, Kotlin, Java, Swift"}
         question2={"which technology used for creating Web applications"}
@@ -95,12 +87,7 @@ const Home = ({ description }) => {
         answer4={"Django, Node JS, Express JS, Next JS"}
         para={"Can Software integrate with other platforms and services?"}
       /> 
-      <Driven para={"Choose Expobird as your software development agency and propel your business to new heights with our award-winning software development services and proprietary technology platform."} />
-      <Awards />
       <HouseTechnology />
-      {/* <OurServices /> */}
-      <Technologies />
-      <Blog1 menuData={Menu} />
       <Footer />
     </>
   )

@@ -28,7 +28,11 @@ module.exports = {
     },
     fontFamily:{
       montserrat:[
-        'Montserrat', 'sans-serif'
+        // 'Montserrat', 'sans-serif'
+        // "Montserrat", 'sans-serif'
+          // "Josefin Sans", 'sans-serif'
+          "Libre Baskerville", "serif"
+
       ],
     }
   },
