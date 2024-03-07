@@ -49,8 +49,14 @@ body {
 
 .swiper-pagination-bullet-active{
   background: white;
+  margin-top: 10px;
 }
 
 .swiper-pagination-bullet{
   background: white;
+  margin-top: 10px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+  bottom: -6px;
 }
