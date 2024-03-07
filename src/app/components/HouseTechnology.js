@@ -4,10 +4,10 @@ import Script from 'next/script';
 
 const HouseTechnology = () => {
 
-  <Script
-    src="/scripts/script-1.js"
-    strategy="lazyOnload"
-  ></Script>
+  // <Script
+  //   src="/scripts/script-1.js"
+  //   strategy="lazyOnload"
+  // ></Script>
 
   return (
     <Fragment>
