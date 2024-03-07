@@ -1,9 +1,6 @@
 import Script from 'next/script';
 import DigitalHero from '@/app/components/DigitalHero';
 import Navbar from '@/app/components/Navbar';
-import OurService2 from '@/app/components/OurService2';
-import FeatureWork from '@/app/components/FeatureWork';
-import CaseStudy from '@/app/components/CaseStudy';
 import Footer from '@/app/components/Footer';
 import Faq2 from '@/app/components/Faq2';
 import Driven2 from '@/app/components/Driven2';
@@ -24,10 +21,7 @@ const App = () => {
          text1={"We Are"} text2={"Animation service"} text3={"Company"}
          />
       </div>
-      <OurService2 title={"Choose Expobird as your digital marketing agency and propel your business to new heights with our award-winning social media marketing services and proprietary technology platform."} />
-      <FeatureWork title={"We are a team of Animation service and research experts with over ten years of experience in improving businesses and peoples’ lives through smart design"} 
-      />
-      <CaseStudy />
+
       <Faq2 question={"which technology used for creating mobile applications"}
       answer={"React Native, Flutter, Ionic, JavaScript, Kotlin, Java, Swift"}
       question2={"which technology used for creating Web applications"}
