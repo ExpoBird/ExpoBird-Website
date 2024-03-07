@@ -13,10 +13,6 @@ const App = () => {
   return (
     <>
       <Script
-        src="/scripts/script-1.js"
-        strategy="lazyOnload"
-      ></Script>
-      <Script
         src="/scripts/script-3.js"
         strategy="lazyOnload"
       ></Script>
@@ -28,10 +24,8 @@ const App = () => {
           text1={"We Are"} text2={"Web Development"} text3={"Company"}
         />
       </div>
-      <OurService2 title={"Choose Expobird as your Software Company and propel your business to new heights with our award-winning Web Development services and proprietary technology platform."} />
       <FeatureWork title={"We are a team of Web Developers and research experts with over ten years of experience in improving businesses and peoples’ lives through smart design"}
       />
-      <CaseStudy />
       <Faq2 question={"which technology used for creating mobile applications"}
         answer={"React Native, Flutter, Ionic, JavaScript, Kotlin, Java, Swift"}
         question2={"which technology used for creating Web applications"}
