@@ -4,10 +4,10 @@ import Script from 'next/script';
 const Faq = ({ question, answer, question2, answer2, question3, answer3, question4, answer4, para }) => {
   return (
     <>
-        <Script
+        {/* <Script
         src="/scripts/script-1.js"
         strategy="lazyOnload"
-      ></Script>
+      ></Script> */}
       <div className="bg-[#000213] font-montserrat">
         <div className="xl:max-w-[1440px] mx-auto">
           <div className="sm:p-2 sm:leading-none p-24">

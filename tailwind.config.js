@@ -31,7 +31,8 @@ module.exports = {
         // 'Montserrat', 'sans-serif'
         // "Montserrat", 'sans-serif'
           // "Josefin Sans", 'sans-serif'
-          "Libre Baskerville", "serif"
+          // "Libre Baskerville", "serif"
+          "Kanit", "sans-serif"
 
       ],
     }

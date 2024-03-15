@@ -50,43 +50,43 @@ const Navbar = () => {
         <button onClick={toggleMobileMenu} className="text-white absolute right-28 text-6xl cursor-pointer -mr-[98px]">
           &times;
         </button>
-        <div className='justify-center grid grid-cols-4 mt-10 ml-10 gap-10'>
-          <ul className="py-6 shadow-md shadow-[#00A256]">
+        <div className='justify-center grid grid-cols-2 mt-[120px] ml-10 gap-[90px] font-montserrat text-center'>
+          <ul className="py-6 shadow-sm shadow-[#0045e5]">
             <Link href="/services/digital"><li className=" text-[26px] font-semibold leading-none  underline mb-2 px-4" onClick={closeMobileMenu}>
               Digital Marketing Services
             </li></Link>
           </ul>
-          <ul className="py-6 shadow-md shadow-[#00A256] ">
+          <ul className="py-6 shadow-sm shadow-[#0045e5] ">
             <Link href="/services/social"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
               Social Media Marketing Services
             </li></Link>
           </ul>
-          <ul className="py-6 shadow-md shadow-[#00A256] ">
+          <ul className="py-6 shadow-sm shadow-[#0045e5] ">
             <Link href="/services/web"><li className="text-[26px] leading-none font-semibold  underline mb-2 px-4" onClick={closeMobileMenu}>
               Web Design & Development Services
             </li></Link>
           </ul>
-          <ul className="py-6 shadow-md shadow-[#00A256] ">
+          <ul className="py-6 shadow-sm shadow-[#0045e5] ">
             <Link href="/services/commerce"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
               E-commerce Development Services
             </li></Link>
           </ul>
-          <ul className="py-6 shadow-md shadow-[#00A256]">
+          <ul className="py-6 shadow-sm shadow-[#0045e5]">
             <Link href="/services/video"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
               Video Production Services
             </li></Link>
           </ul>
-          <ul className="py-6 shadow-md shadow-[#00A256]">
+          <ul className="py-6 shadow-sm shadow-[#0045e5]">
             <Link href="/services/animation"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
               Animation Services
             </li></Link>
           </ul>
-          <ul className="py-6 shadow-md shadow-[#00A256]">
+          <ul className="py-6 shadow-sm shadow-[#0045e5]">
             <Link href="/services/ui"><li className="text-[26px] leading-none font-semibold underline  mb-2 px-4" onClick={closeMobileMenu}>
               UI/UX Design Services
             </li></Link>
           </ul>
-          <ul className="py-6 shadow-md shadow-[#00A256]">
+          <ul className="py-6 shadow-sm shadow-[#0045e5]">
             <Link href="/services/appdev"><li className="text-[26px] leading-none font-semibold underline  mb-4 px-4" onClick={closeMobileMenu}>
               Application Development Services
             </li></Link>
