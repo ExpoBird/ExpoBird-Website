@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="sm:hidden md:hidden px-24 font-montserrat flex items-center justify-center bg-[#000213] relative">
         <div className="w-full">
           <nav className="py-6 w-full flex items-center justify-between">
-            <Image src={"/assets/logo.png"} width={90} height={50} alt="pic" />
+            <Image src={"/assets/Untitled-122_page-0002.jpg"} width={90} height={50} alt="pic" />
             <div className="flex items-center">
               <ul className="flex items-center md:space-x-12 xl:space-x-4 lg:space-x-6 list-none space-x-10 cursor-pointer">
                 <li className="text-white mr-4 text-[16px] font-semibold" onClick={toggleMobileMenu}>
@@ -36,7 +36,7 @@ const Navbar = () => {
                 </li></Link>
 
               </ul>
-              <Link href="/contact"><button className="sm:hidden ml-20 justify-end px-5 py-3 rounded-[40px] text-white text-[17px] font-semibold">
+              <Link href="/contact"><button className="sm:hidden ml-20 justify-end px-5 py-3 rounded-[40px] text-white text-[17px] font-semibold bg-[#7B41F9] ">
                 Let’s Talk <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
               </button></Link>
             </div>

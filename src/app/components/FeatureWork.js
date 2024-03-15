@@ -58,7 +58,7 @@ const FeatureWork = ({ title }) => {
               </div>
             </div>
             <div className='text-center'>
-              <button className="text-white mb-10 mt-6 text-[17px] bg-[#0045e5] rounded-[70px] py-4 px-6 font-semibold">
+              <button className="text-white mb-10 mt-6 text-[17px] bg-[#7B41F9] rounded-[70px] py-4 px-6 font-semibold">
                 Hire Us{" "}
                 <span>
                   <Image

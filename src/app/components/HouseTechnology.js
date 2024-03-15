@@ -67,7 +67,7 @@ const HouseTechnology = () => {
                   placeholder="Enter your site here"
                   className="sm:min-w-[300px] lg:min-w-[300px] sm:mb-5 sm:ml-5 rounded-[40px] bg-transparent outline-[#5D6BD9] outline outline-1 border-none py-4 px-9 min-w-[840px] placeholder:text-white placeholder:text-center text-base text-white mr-8"
                 />
-                <button className="text-white text-[20px] lg:mt-10 sm:mt-[15px] bg-[#0045e5] rounded-[70px] py-4 px-6 font-semibold">
+                <button className="text-white text-[20px] lg:mt-10 sm:mt-[15px] bg-[#7B41F9] rounded-[70px] py-4 px-6 font-semibold">
                   Get A proposal{" "}
                   <span>
                     <Image
