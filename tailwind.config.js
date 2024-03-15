@@ -28,7 +28,7 @@ module.exports = {
     },
     fontFamily:{
       montserrat:[
-          "League Spartan", "sans-serif"
+        "Kanit", "sans-serif"
       ],
     }
   },
