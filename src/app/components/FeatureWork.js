@@ -6,7 +6,7 @@ const FeatureWork = ({ title }) => {
     <>
       <div className="bg-[#000213] font-montserrat">
         <div className="xl:max-w-[1440px] mx-auto">
-          <div className="p-24 sm:p-10">
+          <div className="p-[9rem] sm:p-10">
             <div className="sm:grid-cols-1 md:grid md:grid-cols-1 grid grid-cols-2 items-center">
               <h6 className="sm:text-[40px] sm:text-center sm:mt-10 sm:mb-6 md:text-[60px] sm:space-x-10 text-[85px] text-[#FFFFFF] max-w-[400px]  leading-none font-bold sm:pb-20 pb-24">
                 Featured works
@@ -42,19 +42,19 @@ const FeatureWork = ({ title }) => {
             </div>
             <div className="sm:grid sm:grid-cols-2 grid grid-cols-2 gap-8">
               <div className="max-w-[605px]">
-                <Image src={"/assets/work01.png"} width={500} height={580} className="rounded-[50px] sm:rounded-[20px]" alt="pic" />
+                <Image src={"/assets/work01.png"} width={450} height={580} className="rounded-[50px] sm:rounded-[20px]" alt="pic" />
                 <p className="sm:text-center ml-[137px] sm:leading-none text-white sm:text-[20px] mt-8 font-montserrat text-[25px] font-semibold">Zorro University</p>
               </div>
               <div className="max-w-[605px] ml-auto">
-                <Image src={"/assets/work02.png"} width={500} height={580} className="rounded-[50px] sm:rounded-[20px]" alt="pic" />
+                <Image src={"/assets/work02.png"} width={450} height={580} className="rounded-[50px] sm:rounded-[20px]" alt="pic" />
                 <p className="sm:text-center sm:leading-none sm:text-[20px] text-white mt-8 font-montserrat text-[25px] font-semibold ml-[137px]">Gemmie Skin Care</p>
               </div>
               <div className="max-w-[605px]">
-                <Image src={"/assets/work03.png"} width={500} height={580} className="rounded-[50px] sm:rounded-[20px]" alt="pic" />
+                <Image src={"/assets/work03.png"} width={450} height={580} className="rounded-[50px] sm:rounded-[20px]" alt="pic" />
                 <p className="sm:text-center sm:text-[20px] text-white mt-8 font-montserrat text-[25px] font-semibold ml-[137px]">Doodle food</p>
               </div>
               <div className="max-w-[605px] ml-auto">
-                <Image src={"/assets/work04.png"} width={500} height={580} className="rounded-[50px] sm:rounded-[20px]" alt="pic" />
+                <Image src={"/assets/work04.png"} width={450} height={580} className="rounded-[50px] sm:rounded-[20px]" alt="pic" />
                 <p className="sm:text-center sm:text-[20px] text-white mt-8 font-montserrat text-[25px] font-semibold ml-[137px]">Doodle food</p>
               </div>
             </div>
