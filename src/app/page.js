@@ -79,17 +79,8 @@ const Home = ({ description }) => {
       <Driven para={"Choose Expobird as your software development agency and propel your business to new heights with our award-winning software development services and proprietary technology platform."} />
       <Awards />
       <Tech />
-      <Testimonials />
-      <Faq question={"which technology used for creating mobile applications"}
-        answer={"React Native, Flutter, Ionic, JavaScript, Kotlin, Java, Swift"}
-        question2={"which technology used for creating Web applications"}
-        answer2={"React JS, Node JS, Express JS, Next JS, Angular JS, Vue JS, Tailwind Css"}
-        question3={"which technology used for creating Dev Ops"}
-        answer3={"Docker, Kubernetes, Linux, azure, Aws"}
-        question4={"which technology used for creating Backend applications"}
-        answer4={"Django, Node JS, Express JS, Next JS"}
-        para={"Can Software integrate with other platforms and services?"}
-      /> 
+      {/*<Testimonials />*/}
+
       <HouseTechnology />
       <Footer />
       {/* <NewFooter /> */}

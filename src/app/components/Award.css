@@ -12,13 +12,13 @@ body {
   font-size: 14px;
   margin: 0;
   padding: 0;
-  background-color: #000213 ;
+
 
 }
 
 .swiper {
   width: 100%;
-  background-color: #000213;
+
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -44,7 +44,7 @@ body {
 }
 
 .swiper-js {
-  background-color:#000213;
+  background-color:
 }
 
 .swiper-pagination-bullet-active{

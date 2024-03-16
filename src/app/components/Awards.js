@@ -10,8 +10,10 @@ import Image from 'next/image';
 
 export default function Award() {
   return (
-    <>
-      <p className='text-white bg-[#000213] font-montserrat placeholder:text-white sm:text-[40px] text-[85px] font-bold sm:font-extrabold text-center sm:text-center'>Our Awards</p>
+    <><div className="font-montserrat xl:max-w-[1440px] bg-[#ffffff] sm:max-w-[500px] mx-auto">
+        <div className="p-10 sm:p-0">
+          <h6 className="sm:text-[40px] sm:text-center sm:mt-10 sm:ml-[5px] ml-[60px] md:text-[50px] sm:font-extrabold text-[#000213] text-[85px] font-bold">Our Awards</h6>
+        </div>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}
@@ -91,6 +93,7 @@ export default function Award() {
         </SwiperSlide>
 
       </Swiper>
+      </div>
     </>
   );
 }
