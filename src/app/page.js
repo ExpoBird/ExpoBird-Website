@@ -69,7 +69,7 @@ const Home = ({ description }) => {
         strategy="lazyOnload"
       ></Script>
       <Navbar />
-      <TestingNav />
+      {/* <TestingNav /> */}
       
       <Hero />
       <HeroBackground />

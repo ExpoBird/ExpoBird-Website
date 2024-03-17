@@ -16,7 +16,10 @@ const Service = () => {
                 <div>
                   <p className="text-[40px] text-black font-bold pl-5" data-inviewport >Web Development</p>
                   <p className="text-[20px] text-black font-medium max-w-[80%] pl-5 py-3">We imagine and build experiences and businesses that win hearts and realize the future. Explore how we work.</p>
-                  <Image src="/assets/web-development.webp" height={0} width={400} className="py-3" alt="" />
+                  <video height={0} width={400} className="py-3" alt="" autoPlay loop>
+      <source src="/assets/Intro22.webm" type="video/webm" />
+      Your browser does not support the video tag.
+    </video>
                   <Link href="/services/web">
                     <button className="buttonv2 justify-end px-6 py-4 rounded-[40px] text-[#fff] text-[17px] font-semibold ml-[240px]">
                       See All <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
