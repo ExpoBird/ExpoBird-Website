@@ -16,8 +16,10 @@ const Service = () => {
                 <div>
                   <p className="text-[40px] text-black font-bold pl-5" data-inviewport >Web Development</p>
                   <p className="text-[20px] text-black font-medium max-w-[80%] pl-5 py-3">We imagine and build experiences and businesses that win hearts and realize the future. Explore how we work.</p>
-                  <video height={0} width={400} className="py-3" alt="" autoPlay loop>
-      <source src="/assets/Intro22.webm" type="video/webm" />
+                  <video height={0} width={400} className="py-3 " alt=""  autoPlay={true}
+        muted={true}
+        loop={true}
+      src="/assets/intro.webm" type="video/webm" >
       Your browser does not support the video tag.
     </video>
                   <Link href="/services/web">
